@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Website on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/static-website/</link>
+    <description>Recent content in Static Website on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Apr 2022 22:38:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/static-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to host a static website using GitLab pages for free.</title>
+      <link>https://techtracker5.github.io/2022/04/how-to-host-static-website-using-gitlab.html</link>
+      <pubDate>Sun, 24 Apr 2022 22:38:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/04/how-to-host-static-website-using-gitlab.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-kCEGI2WhIlw/YmWD8HUedSI/AAAAAAAAKZA/_gtoSzxQmKY-T7gVfjf0FOVqrvH23FMVgCNcBGAsYHQ/s1600/1650820076606551-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Now a days in order to create website most people rely on hosting platforms or content management systems like Blogger and WordPress over there you will get alot of features and options to customize and publish your website as you like but most reliable hosting platforms require money to host your website.
+Even though there are some hosting platforms like Bytehost and Infinity Free and content management platforms like Blogger and WordPress etc provide free services yet there are few necessary features missing that are required by Geeks and developers so they usually prefer Github or GitLab to host static websites or blogs for free.</description>
+    </item>
+    
+    <item>
+      <title>How to convert file to link and host static website on Telegram.</title>
+      <link>https://techtracker5.github.io/2022/01/how-to-convert-file-to-link-and-host.html</link>
+      <pubDate>Mon, 31 Jan 2022 21:56:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/01/how-to-convert-file-to-link-and-host.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-9ESBfgKIIWo/YfgNzRb2enI/AAAAAAAAI7Q/BadRfxeRwdMC5mD6ze4oROjMZiSQGfKwACNcBGAsYHQ/s1600/1643646409190095-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Telegram is a popular social messaging app where you will get advanced features and awesome bots to do almost anything with best privacy and security founded by pavel durvov and nikoloi durov, Telegram is different from other social messaging so you can do alot of stuff that you can&amp;rsquo;t do in other social messaging apps for ex: on Telegram you can create your own bot using telegram API and download files to Telegram using link, scan text on images using OCR bot, edit video and photos etc, Now, you may wonder how you can host static website on a social messaging app like Telegram, it is possible but using an unofficial bot named tlgur, where you just have to send your static website .</description>
+    </item>
+    
+  </channel>
+</rss>

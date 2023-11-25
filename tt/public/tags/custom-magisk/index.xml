@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Magisk on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/custom-magisk/</link>
+    <description>Recent content in Custom Magisk on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Mar 2022 23:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/custom-magisk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MagiskHide is still alive with Custom Magisk to hide root on Android.</title>
+      <link>https://techtracker5.github.io/2022/03/magiskhide-is-still-alive-with-custom.html</link>
+      <pubDate>Mon, 14 Mar 2022 23:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/03/magiskhide-is-still-alive-with-custom.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-yuo5Py_X85c/Yi97nlT2_AI/AAAAAAAAJrI/88LpjtOwmrMWi-Tm5-5KCPoJUC-5YEIegCNcBGAsYHQ/s1600/1647279003098188-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Magisk is a software for Android rooting, when well known Android rooting software SuperSu by Chainfire Team announced the end of it&amp;rsquo;s development, developer john wu created and introduced Magisk, from then Magisk is considered as best replacement and alternative to not only SuperSu but for other Android rooting softwares as well.
+Magisk is advanced Android rooting software which gone through alot of advancements over the years to provide most useful and amazing features, thanks to John Wu for such commitment, effort and hardwork on Magisk to provide one stop rooting solution for Android users.</description>
+    </item>
+    
+  </channel>
+</rss>

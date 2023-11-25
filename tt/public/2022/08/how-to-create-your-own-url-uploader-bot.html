@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  How to create your own URL Uploader bot on Telegram. - Tech Tracker
+  </title>
+  <meta name="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png&#34; alt=&#34;&#34;&gt; We&rsquo;re in modern era of computers and smartphones with www aka world wide web of internet which are equipped with softwares that&rsquo;re build by developers and companies using different programming languages and technologies by using them you can create many format digital files of images, videos, audios etc then you can use them for various purposes.
+Even though you can create digital files of physical objects or any other technologies using softwares but in back end in order to save them you must need hardware storage at first most people used HDDs hard disk drives that&rsquo;re still widely used by people then later on we got SSDs aka solid state drives both are fully capable to store all digital files." /><meta name="generator" content="Hugo 0.92.2" /><link
+    rel="stylesheet"
+    href="https://techtracker5.github.io/css/styles.min.8984c35e72b5a477897b8473f9b7eb11a26c56142603e3594ba7637b31c0a162.css"
+    integrity="sha256-iYTDXnK1pHeJe4Rz+bfrEaJsVhQmA+NZS6djezHAoWI="
+  />
+  
+  
+
+  <meta property="og:title" content="How to create your own URL Uploader bot on Telegram." />
+<meta property="og:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png&#34; alt=&#34;&#34;&gt; We&rsquo;re in modern era of computers and smartphones with www aka world wide web of internet which are equipped with softwares that&rsquo;re build by developers and companies using different programming languages and technologies by using them you can create many format digital files of images, videos, audios etc then you can use them for various purposes.
+Even though you can create digital files of physical objects or any other technologies using softwares but in back end in order to save them you must need hardware storage at first most people used HDDs hard disk drives that&rsquo;re still widely used by people then later on we got SSDs aka solid state drives both are fully capable to store all digital files." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techtracker5.github.io/2022/08/how-to-create-your-own-url-uploader-bot.html" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-08-05T12:00:00+05:30" />
+<meta property="article:modified_time" content="2022-08-05T12:00:00+05:30" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to create your own URL Uploader bot on Telegram."/>
+<meta name="twitter:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png&#34; alt=&#34;&#34;&gt; We&rsquo;re in modern era of computers and smartphones with www aka world wide web of internet which are equipped with softwares that&rsquo;re build by developers and companies using different programming languages and technologies by using them you can create many format digital files of images, videos, audios etc then you can use them for various purposes.
+Even though you can create digital files of physical objects or any other technologies using softwares but in back end in order to save them you must need hardware storage at first most people used HDDs hard disk drives that&rsquo;re still widely used by people then later on we got SSDs aka solid state drives both are fully capable to store all digital files."/>
+
+  <meta itemprop="name" content="How to create your own URL Uploader bot on Telegram.">
+<meta itemprop="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png&#34; alt=&#34;&#34;&gt; We&rsquo;re in modern era of computers and smartphones with www aka world wide web of internet which are equipped with softwares that&rsquo;re build by developers and companies using different programming languages and technologies by using them you can create many format digital files of images, videos, audios etc then you can use them for various purposes.
+Even though you can create digital files of physical objects or any other technologies using softwares but in back end in order to save them you must need hardware storage at first most people used HDDs hard disk drives that&rsquo;re still widely used by people then later on we got SSDs aka solid state drives both are fully capable to store all digital files."><meta itemprop="datePublished" content="2022-08-05T12:00:00+05:30" />
+<meta itemprop="dateModified" content="2022-08-05T12:00:00+05:30" />
+<meta itemprop="wordCount" content="2217">
+<meta itemprop="keywords" content="How,technology,Create,Telegram,URL Uploader bot," />
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://techtracker5.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="logo_black.jpg" alt="Tech Tracker" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/about">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">How to create your own URL Uploader bot on Telegram.</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    August 5, 2022
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      11&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      2217&nbsp;words
+      
+        
+      
+    </h5>
+    
+
+    
+
+    <p><a href="https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-kuJLpO7mFz0/Yu2UWh67UFI/AAAAAAAAM8s/eIPliufC5h4BBJq1kV1pPrDhoxyb7VKcQCNcBGAsYHQ/s1600/1659737173689387-0.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>We&rsquo;re in modern era of computers and smartphones with www aka world wide web of internet which are equipped with softwares that&rsquo;re build by developers and companies using different programming languages and technologies by using them you can create many format digital files of images, videos, audios etc then you can use them for various purposes.</p>
+<p>Even though you can create digital files of physical objects or any other technologies using softwares but in back end in order to save them you must need hardware storage at first most people used HDDs hard disk drives that&rsquo;re still widely used by people then later on we got SSDs aka solid state drives both are fully capable to store all digital files.</p>
+<p>Thankfully, inventors and companies for personal or commercial reasons reduced the size of HDDs and SDDs with increased storage capacity for latest devices like SD cards and pendrives etc due to that now we can store GB aka giga byte or TB aka terra byte digital files with fast write and read speed but bigger storage HDDs and SDDs are quite expensive so not everyone  can&rsquo;t afford them.</p>
+<p>Even if you already have big storage HDDs and SDDs and stored huge digital files yet HDDs and SDDs are physical objects so you have to carry them everywhere and in case you lost your HDD or SDD there is no way to recover your digital files that&rsquo;s risky and you have to buy new HDDs and SSDs to store digital files again which is why most people are now shifting to cloud storage platforms.</p>
+<p>Cloud storage platforms are either website or software also use HDDs or SSDs in  backend but you can&rsquo;t see them are maintained by individuals or companies available on world wide of internet which provides storage capacity to let you upload your digital files using computer or smartphone with WiFi or mobile network remotely through cloud servers.</p>
+<p>Cloud server is connection between HDD or SDD and cloud storage platforms so you have to choose secure, fast and reliable cloud server from trusted and safe cloud storage platform thus your digital files will always there on world wide web and you can access them anywhere and anytime unless on your own delete them.</p>
+<p>We have millions of free cloud storage platforms and softwares out there on world wide web which you can access through supported browser and operating system where you have to register an account with email or phone number and then start uploading your digital files but majority of them provide limited storage so if you have big files then you have to buy paid plan to extend storage capacity.</p>
+<p>But, it&rsquo;s always recommended to store your digital files on HDDs or SDDs as well because cloud storage platforms are not handled by you they are maintained by individuals or companies thus if for whatever reason they closed down cloud storage platforms either for personal or exploited by hackers then you will loose your digital files so make sure you backup them on personal HDDs and SDDs to be in safe zone.</p>
+<p>Fortunately, there are many free unlimited cloud storage platforms in 21st century from individuals and companies as now a days people creating huge size files due to latest technologies in this digital work life but most unlimited cloud storage has limited features you can&rsquo;t do external stuff as they&rsquo;re purely cloud storage platforms.</p>
+<p>In case, you want to store videos then we have numerous social video blogging platforms out of them popular and best one is Google&rsquo;s YouTube that allows you to store unlimited video digital format files integrated with numerous extra features even pays you money when people view your videos based on several factors but for whatever it don&rsquo;t provide any option to directly download digital video files to your computer or smartphone.</p>
+<p>Fortunately, now a days we have modern social messaging platforms where you can store or send unlimited messages and upto 100 mb size digital files for Instance Whatsapp and Signal etc but if you want to store and send much bigger size digital files then there is this social messaging platform named Telegram.</p>
+<p>Telegram is well known top privacy and security focused social messaging platform developed by Pavel durov and Nikolai durov released in year 2013 that has many amazing advanced and powerful futuristic features where you can store or send unlimited digital files upto 2GB size for each file on free plan and 4GB file size on premium plan thus it&rsquo;s very suitable for those who want to store or send huge file size digital files online.</p>
+<p>Usually, you have to manually upload your digital files on cloud storage platforms after that they provide share and download link by using them you can access or download your digital files using your browser or external download manager like 1DM then you have to upload them on Telegram if the file size is large then it takes time and use double data.</p>
+<p>Thankfully, Telegram has thousands of official and unofficial bots of almost all categories out of them we have many link to file also known as URL Uploader bots build by third party developers using Telegram Public API on them you can simply send download links of any file size then it will auto download on it&rsquo;s own using cloud server and upload on Telegram isn&rsquo;t cool and useful?</p>
+<p>You can also create your own URL Uploader bot on Telegram using it&rsquo;s public API if you have cloud servers and know coding but in case you don&rsquo;t know coding and has no cloud servers still you can build your own URL Uploader bot on Telegram using URL Uploader bot GitHub Public repository Heroku, MongoDB and few required Telegram bots.</p>
+<p>Generally, if you want to make URL Uploader bot for everyone then you need big storage cloud servers that are costly from Google Cloud or Amazon Azure etc but in case it&rsquo;s for personal usages then very likely free cloud server is enough so will be using Heroku and MongoDB.</p>
+<p>GitHub is platform for developers to contribute each other on projects where few developers created public URL Uploader bot repository and provided an option to automatically deploy on Heroku with MongoDB in minutes but remember Heroku free plan has 550 free dyno hours limit and require paid subscription to extend further.</p>
+<p>MongoDB provide free database with limitations it is widely used by third party developers to deploy unofficial Telegram bots on Heroku you may use some other platform database url as well but don&rsquo;t know it will work or not as currently MondoDB is officially supported and it&rsquo;s working super fine.</p>
+<p>Anyhow, for sure evidently you don&rsquo;t need to know coding to make URL Uploader bot on Telegram atleast in this case but you have to use some official and unofficial bots on Telegram that&rsquo;s simple even complete beginner can do so do you like it? are you ready to create your own URL Uploader bot? If yes explore more. </p>
+<p><strong>• Telegram official support •</strong></p>
+<p>- <a href="https://twitter.com/telegram" target="_blank" rel="noopener">Twitter</a>
+</p>
+<p><strong>Website :</strong> <a href="http://Telegram.org" target="_blank" rel="noopener">Telegram.org</a>
+</p>
+<p><strong>• How to download Telegram •</strong></p>
+<p>It is very easy to download Telegram from these platforms for free.</p>
+<p>- <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank" rel="noopener">Google Play</a>
+ <strong>/</strong> <a href="https://apps.apple.com/us/app/telegram-messenger/id686449807" target="_blank" rel="noopener">App Store</a>
+</p>
+<p>- <a href="https://desktop.telegram.org/" target="_blank" rel="noopener">Windows / Mac / Linux</a>
+</p>
+<p>- <a href="https://macos.telegram.org/" target="_blank" rel="noopener">MacOS</a>
+</p>
+<p>- <a href="https://web.telegram.org/" target="_blank" rel="noopener">Web Apps</a>
+</p>
+<p><strong>• How to get URL Uploader repository •</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-m1q1imleCgo/Yu2UVnOw3BI/AAAAAAAAM8o/L8mn5m0WKIw_ESopkCRkjkSTPPqmfGuegCNcBGAsYHQ/s1600/1659737167804065-1.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-m1q1imleCgo/Yu2UVnOw3BI/AAAAAAAAM8o/L8mn5m0WKIw_ESopkCRkjkSTPPqmfGuegCNcBGAsYHQ/s1600/1659737167804065-1.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go to <a href="https://github.com/login?return_to=https://github.com/signup?ref_cta=Sign&#43;up&amp;ref_loc=header&#43;logged&#43;out&amp;ref_page=%252F&amp;source=header-home" target="_blank" rel="noopener">GitHub.com/Signup</a>
+ then create an account or sign into your existing one.</p>
+<p><a href="https://lh3.googleusercontent.com/-lp6SceSpK8U/Yu2UUHv4PAI/AAAAAAAAM8k/U3LRcdxZCowYGIpkkrW-Ls7lRlbNaIFrgCNcBGAsYHQ/s1600/1659737163749600-2.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-lp6SceSpK8U/Yu2UUHv4PAI/AAAAAAAAM8k/U3LRcdxZCowYGIpkkrW-Ls7lRlbNaIFrgCNcBGAsYHQ/s1600/1659737163749600-2.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go to <a href="http://github.com/TechTracker-In/Uploader-Bot" target="_blank" rel="noopener">github.com/TechTracker-In/Uploader-Bot</a>
+ in desktop mode then tap on <strong>Fork.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-A8jP87GNfVk/Yu2UTFInnyI/AAAAAAAAM8g/gobczpCWu-ck7wpppYPigO6VOQfg2glhACNcBGAsYHQ/s1600/1659737160308120-3.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-A8jP87GNfVk/Yu2UTFInnyI/AAAAAAAAM8g/gobczpCWu-ck7wpppYPigO6VOQfg2glhACNcBGAsYHQ/s1600/1659737160308120-3.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter Repository name, description then tap on <strong>Create fork.</strong></p>
+<p>Well, you successfully forked URL Uploader GitHub repository.</p>
+<p><strong>• How to signup on Heroku •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-qzn2R3lOCLI/Yu2USABFayI/AAAAAAAAM8c/WurZUQUEGqkFmDEFWdyI5QanmFM4TmtGwCNcBGAsYHQ/s1600/1659737155986186-4.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-qzn2R3lOCLI/Yu2USABFayI/AAAAAAAAM8c/WurZUQUEGqkFmDEFWdyI5QanmFM4TmtGwCNcBGAsYHQ/s1600/1659737155986186-4.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="https://signup.heroku.com/php" target="_blank" rel="noopener">Sign up Heroku</a>
+ and ✓ check I&rsquo;m not a robot then tap on <strong>CREATE FREE ACCOUNT.</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-v0dSyCgnQek/Yu2URJuIfII/AAAAAAAAM8Y/EkQyWYRW8ZoO9pz7v8LY5xpeRdCcHUcuACNcBGAsYHQ/s1600/1659737152200072-5.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-v0dSyCgnQek/Yu2URJuIfII/AAAAAAAAM8Y/EkQyWYRW8ZoO9pz7v8LY5xpeRdCcHUcuACNcBGAsYHQ/s1600/1659737152200072-5.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Now, you&rsquo;ll receive a verification email check it then tap on activation link and open it on your browser.</p>
+<p><a href="https://lh3.googleusercontent.com/-wGXsHKAid4U/Yu2UQFWqWrI/AAAAAAAAM8U/9w-elDZwnYsMnV6KSjeK-RBRYeLdQA_4ACNcBGAsYHQ/s1600/1659737148171465-6.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-wGXsHKAid4U/Yu2UQFWqWrI/AAAAAAAAM8U/9w-elDZwnYsMnV6KSjeK-RBRYeLdQA_4ACNcBGAsYHQ/s1600/1659737148171465-6.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter and create new password according to requirements then tap on <strong>SET PASSWORD AND LOG IN.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-o3VfTtctk60/Yu2UPIKpqWI/AAAAAAAAM8Q/VQ7CJDc6eOg5NqcYG4nt2kY-ij-QGmOcgCNcBGAsYHQ/s1600/1659737144039052-7.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-o3VfTtctk60/Yu2UPIKpqWI/AAAAAAAAM8Q/VQ7CJDc6eOg5NqcYG4nt2kY-ij-QGmOcgCNcBGAsYHQ/s1600/1659737144039052-7.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>CLICK HERE TO PROCEED.</strong></p>
+<p>Done, you successfully registered on Heroku.</p>
+<p><strong>• How to signup on Mongodb and get database url •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-rwXEHKecUIA/Yu2UOYRwCDI/AAAAAAAAM8M/bPiuIGMBve0JXsis4ormUJklDzPMQA77wCNcBGAsYHQ/s1600/1659737140549054-8.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-rwXEHKecUIA/Yu2UOYRwCDI/AAAAAAAAM8M/bPiuIGMBve0JXsis4ormUJklDzPMQA77wCNcBGAsYHQ/s1600/1659737140549054-8.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="https://account.mongodb.com/account/register" target="_blank" rel="noopener">mongodb.com/register</a>
+ then create an account using Google, GitHub or email.</p>
+<p><a href="https://lh3.googleusercontent.com/-LO_GY5xKFow/Yu2UNZM0AAI/AAAAAAAAM8I/4a-fBKK0wNMQgdsilysaG-g1cL-6Qcv9gCNcBGAsYHQ/s1600/1659737137163011-9.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-LO_GY5xKFow/Yu2UNZM0AAI/AAAAAAAAM8I/4a-fBKK0wNMQgdsilysaG-g1cL-6Qcv9gCNcBGAsYHQ/s1600/1659737137163011-9.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- It will directly take you to MongoDB, no need to very email so chill.</p>
+<p><a href="https://lh3.googleusercontent.com/-9BK3_4JIm_w/Yu2UMrJ039I/AAAAAAAAM8E/nmQ-tYGUFU8ALUPFWf3NfPFgwTVD9koFQCNcBGAsYHQ/s1600/1659737129763795-10.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-9BK3_4JIm_w/Yu2UMrJ039I/AAAAAAAAM8E/nmQ-tYGUFU8ALUPFWf3NfPFgwTVD9koFQCNcBGAsYHQ/s1600/1659737129763795-10.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- ✓ Privacy Policy and Terms of service then tap on <strong>Submit.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-U-xZCwDgUuQ/Yu2UKnFUr0I/AAAAAAAAM8A/mUWPOrVKsOA8noF-qKpcOBgyQ09ng7i5gCNcBGAsYHQ/s1600/1659737126534597-11.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-U-xZCwDgUuQ/Yu2UKnFUr0I/AAAAAAAAM8A/mUWPOrVKsOA8noF-qKpcOBgyQ09ng7i5gCNcBGAsYHQ/s1600/1659737126534597-11.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Choose <strong>Build a new application</strong> then scroll down.</p>
+<p><a href="https://lh3.googleusercontent.com/-9f_2NrSv6xQ/Yu2UJ1FJfvI/AAAAAAAAM78/vlVWmg0mqUkHfokFhsiD978ZlH2rWY-xACNcBGAsYHQ/s1600/1659737122246701-12.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-9f_2NrSv6xQ/Yu2UJ1FJfvI/AAAAAAAAM78/vlVWmg0mqUkHfokFhsiD978ZlH2rWY-xACNcBGAsYHQ/s1600/1659737122246701-12.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Select any type of application and select Python as your preferred language then tap on <strong>Finish.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-KlShC_4AbKE/Yu2UI70WryI/AAAAAAAAM74/YVrutoNzsD8d0kRpRvLxzOCqUc08DD5gQCNcBGAsYHQ/s1600/1659737118722150-13.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-KlShC_4AbKE/Yu2UI70WryI/AAAAAAAAM74/YVrutoNzsD8d0kRpRvLxzOCqUc08DD5gQCNcBGAsYHQ/s1600/1659737118722150-13.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Select Shared Free plan them tap on <strong>Create.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-PzOfEHfbX7g/Yu2UHxphMXI/AAAAAAAAM70/KqUCKkxkmWQ7C8X6kImhoyqqLexUzJRDgCNcBGAsYHQ/s1600/1659737114999168-14.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-PzOfEHfbX7g/Yu2UHxphMXI/AAAAAAAAM70/KqUCKkxkmWQ7C8X6kImhoyqqLexUzJRDgCNcBGAsYHQ/s1600/1659737114999168-14.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Select cloud provider and region then tap on <strong>Create cloud server.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-oQTnxYI4-Uo/Yu2UHDKEiRI/AAAAAAAAM7w/ZWjTVsP_icIOFJ0w0lwSnAlZz_W4NoNRwCNcBGAsYHQ/s1600/1659737111192432-15.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-oQTnxYI4-Uo/Yu2UHDKEiRI/AAAAAAAAM7w/ZWjTVsP_icIOFJ0w0lwSnAlZz_W4NoNRwCNcBGAsYHQ/s1600/1659737111192432-15.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Select My Local Environment, enter IP Address : 0.0.0.0/0 then tap on Add Entry.</p>
+<p>**<a href="https://lh3.googleusercontent.com/-lNxgxGUJAVE/Yu2UGPMvbmI/AAAAAAAAM7s/9puH9iYaJcARj5S2KSA8GuFf0dwmIMgsQCNcBGAsYHQ/s1600/1659737107224066-16.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-lNxgxGUJAVE/Yu2UGPMvbmI/AAAAAAAAM7s/9puH9iYaJcARj5S2KSA8GuFf0dwmIMgsQCNcBGAsYHQ/s1600/1659737107224066-16.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter username and password then tap on <strong>Create User.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-2hURjxFvsdE/Yu2UFLiuoSI/AAAAAAAAM7o/Ko3ZBjHllOMbSmk76FM7pl1n1kYgzSTuQCNcBGAsYHQ/s1600/1659737103700625-17.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-2hURjxFvsdE/Yu2UFLiuoSI/AAAAAAAAM7o/Ko3ZBjHllOMbSmk76FM7pl1n1kYgzSTuQCNcBGAsYHQ/s1600/1659737103700625-17.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Finish and Close.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-7qr_HJZktC0/Yu2UEJrc2VI/AAAAAAAAM7k/xyJk8zRzjg0MPgoPWfgSFfv-gHhEitj_QCNcBGAsYHQ/s1600/1659737099953212-18.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-7qr_HJZktC0/Yu2UEJrc2VI/AAAAAAAAM7k/xyJk8zRzjg0MPgoPWfgSFfv-gHhEitj_QCNcBGAsYHQ/s1600/1659737099953212-18.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Go to Databases.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-mmTanAkuzis/Yu2UDBur7KI/AAAAAAAAM7g/Z1x1iBsKPQApb2cx-hoyI-X-G4CO5FHNgCNcBGAsYHQ/s1600/1659737096450524-19.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-mmTanAkuzis/Yu2UDBur7KI/AAAAAAAAM7g/Z1x1iBsKPQApb2cx-hoyI-X-G4CO5FHNgCNcBGAsYHQ/s1600/1659737096450524-19.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Connect</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-fh-2NY8Aq4E/Yu2UCfhmwAI/AAAAAAAAM7c/WsT0dACget8UIBpvlEHD-peUQ7sCA0xlACNcBGAsYHQ/s1600/1659737092759281-20.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-fh-2NY8Aq4E/Yu2UCfhmwAI/AAAAAAAAM7c/WsT0dACget8UIBpvlEHD-peUQ7sCA0xlACNcBGAsYHQ/s1600/1659737092759281-20.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Connect your application &gt;</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-KX2IeBTXJM4/Yu2UBWXzDHI/AAAAAAAAM7U/T0wGpGvbf0U-2bKya-5Z4q9siGNnukSHgCNcBGAsYHQ/s1600/1659737089102342-21.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-KX2IeBTXJM4/Yu2UBWXzDHI/AAAAAAAAM7U/T0wGpGvbf0U-2bKya-5Z4q9siGNnukSHgCNcBGAsYHQ/s1600/1659737089102342-21.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Select Driver : Python, Version : 3.12 or later then copy connection string.</p>
+<p>- Connect string don&rsquo;t have Password, so kindly edit and replace <!-- raw HTML omitted --> with your real database password.</p>
+<p>Yay, you successfully registered on Mongodb and got database url</p>
+<p><strong>• How to create bot on Telegram •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-AGSXwPVqBRA/Yu2UAoXQSlI/AAAAAAAAM7M/vvml2BD_4McPNKrOz5rwj66qMxfAHjiSACNcBGAsYHQ/s1600/1659737085631837-22.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-AGSXwPVqBRA/Yu2UAoXQSlI/AAAAAAAAM7M/vvml2BD_4McPNKrOz5rwj66qMxfAHjiSACNcBGAsYHQ/s1600/1659737085631837-22.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="http://t.me/BotFather" target="_blank" rel="noopener">@BotFather</a>
+ then tap on <strong>START.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-9QAcVE6lzhE/Yu2T_twOhfI/AAAAAAAAM7I/hFqE9i5P0j8d8ogL3IimFfA38-pVgMp1gCNcBGAsYHQ/s1600/1659737082080310-23.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-9QAcVE6lzhE/Yu2T_twOhfI/AAAAAAAAM7I/hFqE9i5P0j8d8ogL3IimFfA38-pVgMp1gCNcBGAsYHQ/s1600/1659737082080310-23.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>≡</strong> then tap on <strong>/newbot.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-UF1VRQbJzgI/Yu2T-gB9hwI/AAAAAAAAM7A/xgtEp_0padwDfIEI4y02aM0GF9dvlAr3ACNcBGAsYHQ/s1600/1659737078517711-24.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-UF1VRQbJzgI/Yu2T-gB9hwI/AAAAAAAAM7A/xgtEp_0padwDfIEI4y02aM0GF9dvlAr3ACNcBGAsYHQ/s1600/1659737078517711-24.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p><strong>-</strong> Enter and send name for URL Uploader bot.</p>
+<p><a href="https://lh3.googleusercontent.com/-VSsQT3_ofA8/Yu2T97c29EI/AAAAAAAAM68/7GsHmbnlgNYzSSbdWP8sVNBKbk6DVo1_gCNcBGAsYHQ/s1600/1659737075250021-25.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-VSsQT3_ofA8/Yu2T97c29EI/AAAAAAAAM68/7GsHmbnlgNYzSSbdWP8sVNBKbk6DVo1_gCNcBGAsYHQ/s1600/1659737075250021-25.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter and send Username for URL Uploader bot.</p>
+<p><a href="https://lh3.googleusercontent.com/-HEDM1aPUCso/Yu2T839t5cI/AAAAAAAAM64/YqURhDt-7Ccrl6_mn0nK2cr7IlMyhKg6gCNcBGAsYHQ/s1600/1659737070729333-26.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-HEDM1aPUCso/Yu2T839t5cI/AAAAAAAAM64/YqURhDt-7Ccrl6_mn0nK2cr7IlMyhKg6gCNcBGAsYHQ/s1600/1659737070729333-26.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- You&rsquo;ll get API token, copy and note it.</p>
+<p>Bingo, you successfully created bot for URL Uploader on Telegram.</p>
+<p><strong>• How to get Api ID and API Hash on Telegram •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-2RqNOXjTPKs/Yu2T7_y7KPI/AAAAAAAAM60/LDNFkO29nyg1ywRnlLXROeB2MCJSfXIZwCNcBGAsYHQ/s1600/1659737066388908-27.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-2RqNOXjTPKs/Yu2T7_y7KPI/AAAAAAAAM60/LDNFkO29nyg1ywRnlLXROeB2MCJSfXIZwCNcBGAsYHQ/s1600/1659737066388908-27.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="http://t.me/PyGetssApiBot" target="_blank" rel="noopener">@PyGetssApiBot</a>
+ then tap on <strong>START.</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-DaBn0fDr4W8/Yu2T6vZMyRI/AAAAAAAAM6w/EbbPcGkAcFQzkq1jFrpe2U2bSvmdy9Q1QCNcBGAsYHQ/s1600/1659737062232324-28.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-DaBn0fDr4W8/Yu2T6vZMyRI/AAAAAAAAM6w/EbbPcGkAcFQzkq1jFrpe2U2bSvmdy9Q1QCNcBGAsYHQ/s1600/1659737062232324-28.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>Get Api ID and Api Hash.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-1LPoJPYIxKk/Yu2T5k2mzdI/AAAAAAAAM6s/XJjjXeEvE-89WuRi0cOOx_cqeMwlN9ZPACNcBGAsYHQ/s1600/1659737058206255-29.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-1LPoJPYIxKk/Yu2T5k2mzdI/AAAAAAAAM6s/XJjjXeEvE-89WuRi0cOOx_cqeMwlN9ZPACNcBGAsYHQ/s1600/1659737058206255-29.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Share Phone.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-NSX1G5Zwk2E/Yu2T4ozE03I/AAAAAAAAM6o/2b_z_rLihZclCgClivVxoyaZFkRDUBGYgCNcBGAsYHQ/s1600/1659737054135345-30.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-NSX1G5Zwk2E/Yu2T4ozE03I/AAAAAAAAM6o/2b_z_rLihZclCgClivVxoyaZFkRDUBGYgCNcBGAsYHQ/s1600/1659737054135345-30.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- You&rsquo;ll get code to Telegram check it then enter and send it to <a href="http://t.me/PyGetssApiBot" target="_blank" rel="noopener">@PyGetssApiBot.</a>
+</p>
+<p><a href="https://lh3.googleusercontent.com/-UYwGnLIriZM/Yu2T3mrMm1I/AAAAAAAAM6k/j9hqayIXWjs63ls8PV_77VR6dqRDsJQHgCNcBGAsYHQ/s1600/1659737049788692-31.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-UYwGnLIriZM/Yu2T3mrMm1I/AAAAAAAAM6k/j9hqayIXWjs63ls8PV_77VR6dqRDsJQHgCNcBGAsYHQ/s1600/1659737049788692-31.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Now, it will send Api Id and hash copy and note it.</p>
+<p>Let&rsquo;s go, you successfully got Api id and Api hash of Telegram.</p>
+<p><strong>• How to deploy URL Uploader on Heroku •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-GM1UmE3mPw4/Yu2T2kk4IEI/AAAAAAAAM6g/_3l5qPJuUg0UjiD_E2v9kAHKJWDfd426QCNcBGAsYHQ/s1600/1659737044835158-32.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-GM1UmE3mPw4/Yu2T2kk4IEI/AAAAAAAAM6g/_3l5qPJuUg0UjiD_E2v9kAHKJWDfd426QCNcBGAsYHQ/s1600/1659737044835158-32.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="http://t.me/XTZ_HerokuBot" target="_blank" rel="noopener">@XTZ_HerokuBot</a>
+ then tap on <strong>START.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-p0O1rFe6p0o/Yu2T1G_fY2I/AAAAAAAAM6c/vCpl73KkTJIyZBRbZHXs8WFSmRSMY06lQCNcBGAsYHQ/s1600/1659737040074717-33.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-p0O1rFe6p0o/Yu2T1G_fY2I/AAAAAAAAM6c/vCpl73KkTJIyZBRbZHXs8WFSmRSMY06lQCNcBGAsYHQ/s1600/1659737040074717-33.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter or paste and send URL Uploader forked repository then tap on <strong>V2.0</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-eJ6qDkfWw0o/Yu2T0E35IRI/AAAAAAAAM6Y/bHEahh4BW-8DUpPY9fD7wb3BBdNAr6gbACNcBGAsYHQ/s1600/1659737034701581-34.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-eJ6qDkfWw0o/Yu2T0E35IRI/AAAAAAAAM6Y/bHEahh4BW-8DUpPY9fD7wb3BBdNAr6gbACNcBGAsYHQ/s1600/1659737034701581-34.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Authorize Bot.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-PzoOffHGf08/Yu2TyxHUnyI/AAAAAAAAM6U/neMRKFsm_AE6mGYN6578Nkb3JlNPN746wCNcBGAsYHQ/s1600/1659737030430410-35.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-PzoOffHGf08/Yu2TyxHUnyI/AAAAAAAAM6U/neMRKFsm_AE6mGYN6578Nkb3JlNPN746wCNcBGAsYHQ/s1600/1659737030430410-35.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Create new app.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-9kXqRB0t630/Yu2Tx3UCpFI/AAAAAAAAM6Q/4SCI3jm2WDoB3ogxXtK7xnzLp_spZFxrgCNcBGAsYHQ/s1600/1659737027099382-36.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-9kXqRB0t630/Yu2Tx3UCpFI/AAAAAAAAM6Q/4SCI3jm2WDoB3ogxXtK7xnzLp_spZFxrgCNcBGAsYHQ/s1600/1659737027099382-36.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Choose app region US or EU.</p>
+<p><a href="https://lh3.googleusercontent.com/-DotdyEYf7O0/Yu2TxBcqvUI/AAAAAAAAM6M/E-LSFFrcg2cR-7Wr68ZCpdDBq-mldfCvACNcBGAsYHQ/s1600/1659737023231956-37.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-DotdyEYf7O0/Yu2TxBcqvUI/AAAAAAAAM6M/E-LSFFrcg2cR-7Wr68ZCpdDBq-mldfCvACNcBGAsYHQ/s1600/1659737023231956-37.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter and send app name.</p>
+<p><a href="https://lh3.googleusercontent.com/-5lmPihsgDgw/Yu2Tv9l8bOI/AAAAAAAAM6I/bqSVl0pgaIw-9ExYgCNDCsPIJjBAPWerwCNcBGAsYHQ/s1600/1659737019483385-38.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-5lmPihsgDgw/Yu2Tv9l8bOI/AAAAAAAAM6I/bqSVl0pgaIw-9ExYgCNDCsPIJjBAPWerwCNcBGAsYHQ/s1600/1659737019483385-38.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter and send <strong>ANYTHING.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-sbq6X2FgOCc/Yu2TuyRLqCI/AAAAAAAAM6E/0Z8PAL8fT_ABHwz3CU6Ls_i3N_CEDryTQCNcBGAsYHQ/s1600/1659737015417919-39.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-sbq6X2FgOCc/Yu2TuyRLqCI/AAAAAAAAM6E/0Z8PAL8fT_ABHwz3CU6Ls_i3N_CEDryTQCNcBGAsYHQ/s1600/1659737015417919-39.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter or paste and send <strong>BOT_TOKEN</strong>.</p>
+<p><a href="https://lh3.googleusercontent.com/-4CXkKwtp9Xw/Yu2TuKHebZI/AAAAAAAAM6A/0ZAASgPlW_EEUOGq__KgeNS5MLbIHw3vwCNcBGAsYHQ/s1600/1659737011963913-40.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-4CXkKwtp9Xw/Yu2TuKHebZI/AAAAAAAAM6A/0ZAASgPlW_EEUOGq__KgeNS5MLbIHw3vwCNcBGAsYHQ/s1600/1659737011963913-40.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter or paste and send <strong>API_ID</strong>.</p>
+<p><a href="https://lh3.googleusercontent.com/-GkIDgO_6b8E/Yu2TtIfIQVI/AAAAAAAAM58/Kwo8LMgFjSks_LGoxS1QpgdPiinvYsMXgCNcBGAsYHQ/s1600/1659737008629644-41.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-GkIDgO_6b8E/Yu2TtIfIQVI/AAAAAAAAM58/Kwo8LMgFjSks_LGoxS1QpgdPiinvYsMXgCNcBGAsYHQ/s1600/1659737008629644-41.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- <a href="http://t.me/username_to_id_bot" target="_blank" rel="noopener">@username_to_id_bot</a>
+ get owner ID here then enter or paste and send <strong>OWNER_ID</strong>.</p>
+<p><a href="https://lh3.googleusercontent.com/-XQL0b3HOxLI/Yu2TsYGg0fI/AAAAAAAAM54/pf9uJPjXZPsvJdnHtg_MK_1RGD0aKYzBQCNcBGAsYHQ/s1600/1659737004753043-42.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-XQL0b3HOxLI/Yu2TsYGg0fI/AAAAAAAAM54/pf9uJPjXZPsvJdnHtg_MK_1RGD0aKYzBQCNcBGAsYHQ/s1600/1659737004753043-42.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter or paste and send <strong>API_HASH</strong>.</p>
+<p><a href="https://lh3.googleusercontent.com/-0JgmQ5ZqU_k/Yu2TrWJfK7I/AAAAAAAAM50/L0ABoZB1XEsTRBx2yFf0m6Fn4_ld85gmwCNcBGAsYHQ/s1600/1659737001173560-43.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-0JgmQ5ZqU_k/Yu2TrWJfK7I/AAAAAAAAM50/L0ABoZB1XEsTRBx2yFf0m6Fn4_ld85gmwCNcBGAsYHQ/s1600/1659737001173560-43.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter or paste and send <strong>DATABASE_URL.</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-lxc0Zk7CHis/Yu2TqXqqNPI/AAAAAAAAM5w/_JlodKpJo88Z7431xE66KZ76okIPqFo5ACNcBGAsYHQ/s1600/1659736996694643-44.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-lxc0Zk7CHis/Yu2TqXqqNPI/AAAAAAAAM5w/_JlodKpJo88Z7431xE66KZ76okIPqFo5ACNcBGAsYHQ/s1600/1659736996694643-44.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- It will start building and once you get Build Succeed output then URL Uploader is successfully deployed on Heroku.</p>
+<p>That&rsquo;s it, you successfully created URL Uploader bot on Telegram.</p>
+<p><strong>• How to use URL Uploader bot •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-Eo2rWK5KJoM/Yu2TpR1qo2I/AAAAAAAAM5s/6Sr6sArFqh03-zsiNrxYdpxhVXWKehjbQCNcBGAsYHQ/s1600/1659736992569714-45.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-Eo2rWK5KJoM/Yu2TpR1qo2I/AAAAAAAAM5s/6Sr6sArFqh03-zsiNrxYdpxhVXWKehjbQCNcBGAsYHQ/s1600/1659736992569714-45.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to your URL Uploader bot then tap on <strong>START</strong>.</p>
+<p><a href="https://lh3.googleusercontent.com/-P8E2I4o6F5Y/Yu2ToB3vmtI/AAAAAAAAM5o/cgYNA6ySC_EU0B-E0-RWdohlqszvb3vFQCNcBGAsYHQ/s1600/1659736987934936-46.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-P8E2I4o6F5Y/Yu2ToB3vmtI/AAAAAAAAM5o/cgYNA6ySC_EU0B-E0-RWdohlqszvb3vFQCNcBGAsYHQ/s1600/1659736987934936-46.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter or paste and send download link, you can set /customthumnail as well.</p>
+<p>Ta-da, it will download and send it as Telegram file.</p>
+<p>Atlast, this are just highlighted features of URL Uploader bot there may be many hidden features in-build that provides you external benefits to give the ultimate usage experience, anyway if you want to create your own URL Uploader bot then this telegram bots method is much better then website for sure.</p>
+<p>Overall, this telegram bots has clean and simple intuitive interface thanks to Telegram public API developers can only add buttons or commands to provide any options or features but in any project there is always space for improvement so let&rsquo;s wait and see will this Telegram bots get any major UI changes in future to make it even more better as of now they&rsquo;re are super cool.</p>
+<p>Moreover, it is definitely worth to mention deploying URL Uploader bot on unofficial Heroku bot is much better and convenient then official website, yes indeed if you&rsquo;re searching for such bot then Heroku bot has potential to become your new favourite choice.</p>
+<p>Finally, this is how you can create your own URL Uploader bot on Telegram, are you an existing user of this Telegram bots? If yes do say your experience and mention is there any other way to auto deploy URL Uploader bot on Heroku? in our comment section below, see ya :)</p>
+
+  </article><div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2"></div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Mark Evans · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://techtracker5.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

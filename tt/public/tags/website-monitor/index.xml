@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website monitor on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/website-monitor/</link>
+    <description>Recent content in Website monitor on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/website-monitor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to build your own domain free website monitor using freshping.</title>
+      <link>https://techtracker5.github.io/2022/05/how-to-build-your-own-free-website.html</link>
+      <pubDate>Wed, 04 May 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/05/how-to-build-your-own-free-website.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-zHzo3z-8lhE/YnMqE3WY-OI/AAAAAAAAKsQ/uEYO96CFGrUKBelAtXhrZ-zo4ezWwvObQCNcBGAsYHQ/s1600/1651714574706518-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; We are now on centralised internet so most websites and apps use centralised server to go up on world web web thus websites that are hosted on centralised server can go down anytime due to various reasons like faulty settings and company server deletion or hackers hijacked site etc which will not only stop content delivery to your visitors but also cause data leaks.
+Eventhough, we are upgrading to Web3 internet where sites and apps are hosed on numerous servers hosted by individuals around the world so no digital platform can never go down or get hacked by hackers, however web3 is still in development and only few sites available out there on internet thus you have to no choice other then utilising centralized server platforms as of now.</description>
+    </item>
+    
+  </channel>
+</rss>

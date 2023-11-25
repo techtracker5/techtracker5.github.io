@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  How to flash stock Android firmware on Mediatek using SP flash tool - Tech Tracker
+  </title>
+  <meta name="description" content="&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6&#34; alt=&#34;&#34;&gt; CPU aka central processing unit inshort processor is one of the main component of electronic devices like computers and smartphones etc which is responsible for processing data of operating system or application software provided and holded in background by RAM aka random access memory if cpu cloak speed and RAM is high then your device can do things fast and efficiently like you can load and run heavy resources data in less time quickly for instance big games and huge video editing etc can be processed pretty fast which is why when buying any device it&rsquo;s important to select good processor with right cloak speed according to personal or work usage needs and requirements or else you may regret later for sure." /><meta name="generator" content="Hugo 0.92.2" /><link
+    rel="stylesheet"
+    href="https://techtracker5.github.io/css/styles.min.8984c35e72b5a477897b8473f9b7eb11a26c56142603e3594ba7637b31c0a162.css"
+    integrity="sha256-iYTDXnK1pHeJe4Rz+bfrEaJsVhQmA+NZS6djezHAoWI="
+  />
+  
+  
+
+  <meta property="og:title" content="How to flash stock Android firmware on Mediatek using SP flash tool" />
+<meta property="og:description" content="&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6&#34; alt=&#34;&#34;&gt; CPU aka central processing unit inshort processor is one of the main component of electronic devices like computers and smartphones etc which is responsible for processing data of operating system or application software provided and holded in background by RAM aka random access memory if cpu cloak speed and RAM is high then your device can do things fast and efficiently like you can load and run heavy resources data in less time quickly for instance big games and huge video editing etc can be processed pretty fast which is why when buying any device it&rsquo;s important to select good processor with right cloak speed according to personal or work usage needs and requirements or else you may regret later for sure." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techtracker5.github.io/2023/06/how-to-flash-stock-android-firmware-on.html" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-04-19T12:00:00+05:30" />
+<meta property="article:modified_time" content="2023-04-19T12:00:00+05:30" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to flash stock Android firmware on Mediatek using SP flash tool"/>
+<meta name="twitter:description" content="&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6&#34; alt=&#34;&#34;&gt; CPU aka central processing unit inshort processor is one of the main component of electronic devices like computers and smartphones etc which is responsible for processing data of operating system or application software provided and holded in background by RAM aka random access memory if cpu cloak speed and RAM is high then your device can do things fast and efficiently like you can load and run heavy resources data in less time quickly for instance big games and huge video editing etc can be processed pretty fast which is why when buying any device it&rsquo;s important to select good processor with right cloak speed according to personal or work usage needs and requirements or else you may regret later for sure."/>
+
+  <meta itemprop="name" content="How to flash stock Android firmware on Mediatek using SP flash tool">
+<meta itemprop="description" content="&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6&#34; alt=&#34;&#34;&gt; CPU aka central processing unit inshort processor is one of the main component of electronic devices like computers and smartphones etc which is responsible for processing data of operating system or application software provided and holded in background by RAM aka random access memory if cpu cloak speed and RAM is high then your device can do things fast and efficiently like you can load and run heavy resources data in less time quickly for instance big games and huge video editing etc can be processed pretty fast which is why when buying any device it&rsquo;s important to select good processor with right cloak speed according to personal or work usage needs and requirements or else you may regret later for sure."><meta itemprop="datePublished" content="2023-04-19T12:00:00+05:30" />
+<meta itemprop="dateModified" content="2023-04-19T12:00:00+05:30" />
+<meta itemprop="wordCount" content="1643">
+<meta itemprop="keywords" content="technology,Android devices,Flash stock firmware,Mediatek,SP flash tool," />
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://techtracker5.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="logo_black.jpg" alt="Tech Tracker" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/about">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">How to flash stock Android firmware on Mediatek using SP flash tool</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    April 19, 2023
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      8&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      1643&nbsp;words
+      
+        
+      
+    </h5>
+    
+
+    
+
+    <p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEjGRqEw3o2CCQvmdlpi7Yb0RzR0UXCygB08QS0SIIQaJedNFSjBr9i7FTbm3BmGMmUzvhfXZYcryXx1PKjb1KGk8M_6b6l4aIb-amYs4fe6qMixHhxDSJnpnbvSearuhCEIoXMcAuEnCoAgBYVGl4STICAtrGZsq78Nx3d4B2IIXR9jqWvkz0T3-h5J6_a6&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>CPU aka central processing unit inshort processor is one of the main component of electronic devices like computers and  smartphones etc which is responsible for processing data of operating system or application software provided and holded in background by RAM aka random access memory if cpu cloak speed and RAM is high then your device can do things fast and efficiently like you can load and run  heavy resources data in less time quickly for instance big games and huge video editing etc can be processed pretty fast  which is why when buying any device it&rsquo;s important to select good processor with  right cloak speed according to personal or work usage needs and requirements or else you may regret later for sure. </p>
+<p>In sense, if you don&rsquo;t care and select any low end cpu whatever data you want to process on device will be slow which may trouble user experience but that doesn&rsquo;t mean processor is everything for fast processing of data there are number of factors involved like type of ROM aka read only memory and RAM, structure and optimization of OS aka operating system and application software technologies etc if they&rsquo;re good then even if your processor is low still things will go well at the end processor play main role which as per available cores speed calculated in hertz and pre-set profiles set by device maker will handle processing data thought you can turn off cores and change speed of processor in system anytime but messing with them without knowledge is risky and can make device unusable completely.</p>
+<p>However, it&rsquo;s not easy to change processor related things on device for that you have to access system aka root level thought you can read it but write access is usually locked by makers to safeguard device if it&rsquo;s ok and you don&rsquo;t care about it much then you can gain root level write access but it will be based on operating system like for instance in order to gain root on Android powered devices you primarly have to unlock bootloader and then flash SuperSu or Magisk root software when it comes to iOS you have to jailbreak which is basically another term for rooting once you done rooting or jaibreak after that you  can change or modify parameters of core processor as well as other system things extensively but at the end rooting device voids device warranty unless you in EU.</p>
+<p>Especially, when you gain root level access you can not just turn on or off cores of processor but also change frequency hertz of processor like undercloak which will powersave and overcloak for performance including that you can install custom kernels specifically developed for your device they provide more options and let you tune processor more to level that was not supported by device stock kernel which is why many geeks like and prefer to use custom kernels so that they will able to save more power or performance but thing is doing any improper changes to processor more then it&rsquo;s capabilities may </p>
+<p>soft or hard brick device thought there are apps made by skilled developers to simply manage or tune processor and likely stay in safe but they don&rsquo;t provide guarantee that&rsquo;s why choose good processor that work well without external enhancements in first place to use device effectively.</p>
+<p>Eventhough, we have processors for PC but in this context we are specifically going to discuss about mobile processors as you may know we have many processor chipsets from reputed companies around the world who usually provide different variants for low, mid, high end flagship smartphones out of them Qualcomm&rsquo;s Snapdragon and Mediatek are widely utilized mainly on smartphones with large market share globally thought both are pretty good processors with thier own pros and cons but the main difference here is Snapdragon is open source and quite developer friendly so third party developers mostly focus on developing custom rom, recoveries and softwares etc for Snapdragon devices where is Mediatek closed source that may seem like a major drawback but it provides better security so it&rsquo;s upto you to choose one accordingly.</p>
+<p>Qualcomm Snapdragon or Mediatek it&rsquo;s makers over the years mainly developed them for Android powered smartphones when you choose one processor whatever device you have it&rsquo;s OS aka operating system must specifically developed and optimized according to processor thought almost all makers usually do all this as processor is one of the main component of device which process device data or else you may face different types of errors and issues like for instance if you have any Snapdragon device and try to install it&rsquo;s OS firmware, custom rom basically software on Mediatek device it usually won&rsquo;t boot it may even soft or hard brick device even if it miracously boots you most likely may find many bugs which is why it&rsquo;s important to understand limits of processors as per them act and utilize device carefully.</p>
+<p>Usually, most people won&rsquo;t install particular processor device OS on different processor devices but there are some people who do this and end up facing different types of problems including that Snapdragon or Mediatek chipset devices sometimes when you update or upgrade stock firmware officially or unofficially install root softwares like Super Su or Magisk, root apps or install custom recoveries like TWRP or OrangeFox etc and then flash custom roms, GSIs etc at certain point due to whatever reason there is chance that device may get into different issues like device incompatibility or technical issues etc at that time though there may be fixes if they don&rsquo;t work then in order to repair soft or hardbrick device we have to use firmware flashing softwares on PC.</p>
+<p>There are many firmware flashing softwares available for numerous processors but the one we are now going to now discuss about is Mediatek if you have and got any problem like bootloop, bugs, soft or hardbrick etc in that case there are number of firmware flashing softwares you can use but most of them are paid and require monthly or annual subscription if you can afford definitely you can use them as they offer better support and compatibility on new chipsets as well like TFM tool but there are people who can&rsquo;t afford even if they do most don&rsquo;t like to pay for fixing device as we can do that for free if you&rsquo;re one of them there are some free firmware flashing softwares for Mediatek like SP Flash Tool, MCT bypass, by using them you can flash stock Android firmware on almost all Mediatek devices easily but flashing stock firmware wipe data so kindly backup all data before using it so do you like it? are you interested in them? If yes then let&rsquo;s explore more.</p>
+<p><strong>• SP Flash Tool official support •</strong></p>
+<p><strong>Website :</strong> <a href="http://spflashtool.com" target="_blank" rel="noopener">spflashtool.com</a>
+</p>
+<p><strong>• How to download SP flash Tool, MCT Bypass Tool, MTK all in one, Libusb •</strong></p>
+<p>It is very easy to download them from these platforms for free.</p>
+<p>- <a href="https://spflashtool.com/" target="_blank" rel="noopener">Linux | Official</a>
+</p>
+<p>- <a href="https://spflashtool.com/" target="_blank" rel="noopener">Windows | Official </a>
+</p>
+<p>- <a href="https://t.me/tecnohios/3099" target="_blank" rel="noopener">MCT Bypass Tool</a>
+</p>
+<p>- <a href="https://t.me/tecnohios/3118" target="_blank" rel="noopener">Libusb 32bit</a>
+</p>
+<p>- <a href="https://t.me/tecnohios/3126" target="_blank" rel="noopener">MTK All in one.bin</a>
+</p>
+<p><strong>• How to flash stock Android firmware on Mediatek Android devices</strong> <strong>using</strong>** SP flash and few other tools with key features and UI / UX overview •**</p>
+<p>**<a href="https://blogger.googleusercontent.com/img/a/AVvXsEiE5K7G8BD2-WXLX2qXqBAN3KCKPl3OGHdWjzuahIlT98lIxn_bVQbInbeV9yNC0F8B5FVuOOsxwGNugXD2Q1uts1maVCAqyGHkNxtH7-D8cRn4j41mqLgzh76-ZWzJhe7oeTXyfy1MM5Wjx00uVi_joW-wOKwUcqgDA8w-oVf5e5m_Oxf3orQRjhVXlRC-" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEiE5K7G8BD2-WXLX2qXqBAN3KCKPl3OGHdWjzuahIlT98lIxn_bVQbInbeV9yNC0F8B5FVuOOsxwGNugXD2Q1uts1maVCAqyGHkNxtH7-D8cRn4j41mqLgzh76-ZWzJhe7oeTXyfy1MM5Wjx00uVi_joW-wOKwUcqgDA8w-oVf5e5m_Oxf3orQRjhVXlRC-&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiifNVc_BmxvS8jR207l0IMqIUKiwcVymn2nM4kb_FLAE8GQu6kniqhFt863fU7Jm5ZBCzrDp79C7qyfK1W71Houy9rN4ALrIM3TbnlQruMT_GaBD5Huz3kd8278WlXWKBUYbOOig-dYR9ilEiuVdumOjB1dO8d424X__9chEhLPUFU00CJzryR4vUTZ3xW" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEiifNVc_BmxvS8jR207l0IMqIUKiwcVymn2nM4kb_FLAE8GQu6kniqhFt863fU7Jm5ZBCzrDp79C7qyfK1W71Houy9rN4ALrIM3TbnlQruMT_GaBD5Huz3kd8278WlXWKBUYbOOig-dYR9ilEiuVdumOjB1dO8d424X__9chEhLPUFU00CJzryR4vUTZ3xW&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p><strong>-</strong> First, using usb cable connect your mediatek Android device to PC.</p>
+<p>- Now, install libusb.</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEj7s1t98-YeLTJRMgEfpa7NiB3tN8j7txOboWobZTWc8AM8v57bR5SkiesKryzLo6hYcr2cY0GPzHxdb-3mrfusuTIgwdDxPiZ2tgiadRjtu3YBKtFecxWsdTfqNTUMmGs2GbJYZ9ClFYWNsCpLFQ-BymEs_Dm7rziSsy8AWbxcTNV6yOeB1z8xkK-II9sz" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEj7s1t98-YeLTJRMgEfpa7NiB3tN8j7txOboWobZTWc8AM8v57bR5SkiesKryzLo6hYcr2cY0GPzHxdb-3mrfusuTIgwdDxPiZ2tgiadRjtu3YBKtFecxWsdTfqNTUMmGs2GbJYZ9ClFYWNsCpLFQ-BymEs_Dm7rziSsy8AWbxcTNV6yOeB1z8xkK-II9sz&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Open MCT bypass tool, check your mediatek chipset supported or not to proceed further if not supported you may have to use paid softwares like tfm tool.</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiC4GfZPPWWxtCHmBSi24vXSKL5rZUpeGebJTgPhKZfT1fBGJ7KmOBf_CMffT-RYMasmg9_vYNfZNKmh2IO6Isl7BlYBS4ccAsfhn3qW9PcMEVxg3mn5TfZ2Gu_hGmwgJlBMUOHXXrJPSJ-V2u8DMiBMsIyMJRy-Xr13oldLirm7j6LldWrMLXx_7lafkZz" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEiC4GfZPPWWxtCHmBSi24vXSKL5rZUpeGebJTgPhKZfT1fBGJ7KmOBf_CMffT-RYMasmg9_vYNfZNKmh2IO6Isl7BlYBS4ccAsfhn3qW9PcMEVxg3mn5TfZ2Gu_hGmwgJlBMUOHXXrJPSJ-V2u8DMiBMsIyMJRy-Xr13oldLirm7j6LldWrMLXx_7lafkZz&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Switch off device, press volume up or down button then tap on Bypass, if device is detected it will bypass authentication and enter device in broom mode.</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEi9Tai755KAXIM9tWQyOoXLX_glJzQx_enDAeQeLTijjVAGpk8RLLdz_lIVfic_RV9xXRXzyeS53QbEGjdyje0BDaX6BLSDsDleKZK3VCnLa5znG029Mb76atR3YgYKWrXXNrnShCafmd633QY1BRF2DnoEgZ_pTzZjjD_w3go7CU8eeX-RqhsV3xCVDVar" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEi9Tai755KAXIM9tWQyOoXLX_glJzQx_enDAeQeLTijjVAGpk8RLLdz_lIVfic_RV9xXRXzyeS53QbEGjdyje0BDaX6BLSDsDleKZK3VCnLa5znG029Mb76atR3YgYKWrXXNrnShCafmd633QY1BRF2DnoEgZ_pTzZjjD_w3go7CU8eeX-RqhsV3xCVDVar&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Now, extract your stock firmware in desktop or any folder on your PC.</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhQYB1Hkk5CD2QWcSZDQ5LXnmrdzHhtsq_Pw5rI-Gr810bXO9R6gB4OsFkOnlP15-ySJv_rlLB4BpEa1y7Q5weiha8S512tMlTAmNS4LDXtFdFeECw_qQU5VZqbhXhcsVl9WtZDqli7FWRNHcFys2auaMv1xP2-ZUMBRIEPAcuPBfopN10wUpKFJsLqpOHA" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEhQYB1Hkk5CD2QWcSZDQ5LXnmrdzHhtsq_Pw5rI-Gr810bXO9R6gB4OsFkOnlP15-ySJv_rlLB4BpEa1y7Q5weiha8S512tMlTAmNS4LDXtFdFeECw_qQU5VZqbhXhcsVl9WtZDqli7FWRNHcFys2auaMv1xP2-ZUMBRIEPAcuPBfopN10wUpKFJsLqpOHA&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Open SP flash tools, In download agent choose and select <strong>mtk all in one.bin</strong></p>
+<p>**<a href="https://blogger.googleusercontent.com/img/a/AVvXsEhD_qs4LwNWnCvgCg3mYDogfFOp_Qqv8VVTfm9l9TGNGlLps75iwKHtQDcDQWELZkXI2ECKgCeiPqFhPB9PGWurXiB1O3fTNRm6kI5SGvc8TnopO2XnpZml1iNxg3fkCXXjlLgvsdpmLJ-132Ce7idauIrbTbTiRrqGrlisNR7QCOZAhhLVspdcnWh6liw9" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEhD_qs4LwNWnCvgCg3mYDogfFOp_Qqv8VVTfm9l9TGNGlLps75iwKHtQDcDQWELZkXI2ECKgCeiPqFhPB9PGWurXiB1O3fTNRm6kI5SGvc8TnopO2XnpZml1iNxg3fkCXXjlLgvsdpmLJ-132Ce7idauIrbTbTiRrqGrlisNR7QCOZAhhLVspdcnWh6liw9&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- In Scatter loading file, choose and select Android scatter.tezt from firmware.</p>
+<p>- Now, if you have authentication file choose and select to proceed further.</p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgKagM3fjW2h8p_z7LumXHworkXAfCFKgEI3bbbC_ERiD4Ya1e0dhIqFoPxzYi2aNBpd7W351eUoMSyuCG-53CJx-fC4Xy_kHyMuVqCb7UTK9dphiVs06iYztyn3UGJild8YW1bwwyz6xmV3E26TcuOri3bpS8xElTZv1yBxLRkDx8i5OwQdpaRds6IclPh" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEgKagM3fjW2h8p_z7LumXHworkXAfCFKgEI3bbbC_ERiD4Ya1e0dhIqFoPxzYi2aNBpd7W351eUoMSyuCG-53CJx-fC4Xy_kHyMuVqCb7UTK9dphiVs06iYztyn3UGJild8YW1bwwyz6xmV3E26TcuOri3bpS8xElTZv1yBxLRkDx8i5OwQdpaRds6IclPh&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- it will load all files as basically work of Android scatter.text is to locate files and partitions of the stock firmware.</p>
+<p>- uncheck preloader, as enabling it on some devices causing soft or hardbrick.</p>
+<p>- Tap on <strong>Download.</strong></p>
+<p>**<a href="https://blogger.googleusercontent.com/img/a/AVvXsEh54AzIetu636aNvmDPhKHASQ5HoPgP49PC_g38JK7IA3ofekE5HfmSTWy2cguHMP7ZuzAc45H03nxYxw2ukqbkEDYsgvrCTcMKxv5ogzsYOLErYAF0TjUhT53qGd5JQEAyQl9H95c2K-QUYBe5zZuiuXDRGqx1UDlQKumH3PqerZg_ELbcDhORexmsKsnd" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEh54AzIetu636aNvmDPhKHASQ5HoPgP49PC_g38JK7IA3ofekE5HfmSTWy2cguHMP7ZuzAc45H03nxYxw2ukqbkEDYsgvrCTcMKxv5ogzsYOLErYAF0TjUhT53qGd5JQEAyQl9H95c2K-QUYBe5zZuiuXDRGqx1UDlQKumH3PqerZg_ELbcDhORexmsKsnd&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Keep device in switched off.</p>
+<p>- Cick on <strong>Download.</strong></p>
+<p><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgXPuYOrXtPQ9SE3j29T57vJXv6GL-ciwgvR_0YxJKQ5KSq0rVUYHhNVUEySNkDBDf2z8h8yZP5BCU6aGG0_8VrbDbFfDH4L6rIfDLzCYu67-AbvVikpKlDYXSRudnAIbto0yd2mw75jiC1CGfJ8e8Akg3es01wU56RhGflfW9ferey1-WtSJtgOaSg3ZW4" target="_blank" rel="noopener">&lt;img src=&#34;https://blogger.googleusercontent.com/img/a/AVvXsEgXPuYOrXtPQ9SE3j29T57vJXv6GL-ciwgvR_0YxJKQ5KSq0rVUYHhNVUEySNkDBDf2z8h8yZP5BCU6aGG0_8VrbDbFfDH4L6rIfDLzCYu67-AbvVikpKlDYXSRudnAIbto0yd2mw75jiC1CGfJ8e8Akg3es01wU56RhGflfW9ferey1-WtSJtgOaSg3ZW4&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>Wohoo, you successfully flashed stock firmware on Mediatek Android devices.</p>
+<p>Atlast, this are just highlighted features of SP Flash Tool there may be many hidden features in-build that provides you external benefits to give the ultimate usage experience, anyway if you want one of the best PC software to flash stock Android firmware on Mediatek devices for free then SP flash tools is worthy choice.</p>
+<p>Moreover, It is definitely worth to mention SP flash tools is one of the very few free Android stock firmware flashing softwares available for Mediatek devices but note on some devies like tecno pova ld7/j when you flash unsigned stock firmware and upgrade it using SP flash tools it will change boot image and get you error boot mismatch and not let you boot into device basically hardbrick to fix that you have to flash signed stock firmware, so be careful and yeah SP Flash Tool has potential to become your new favourite for sure.</p>
+<p>Finally, this is how you can flash stock Android firmware on Mediatek processor chipset devices by Libusb, MCT auth bypass and SP flash tools, are you an existing user of SP flash tool? If yes do say your experience and mention if you know any way better free stock firmware flashing methods or softwares in our comment section below, see ya :)</p>
+
+  </article><div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2"></div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Mark Evans · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://techtracker5.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

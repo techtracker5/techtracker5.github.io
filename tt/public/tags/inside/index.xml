@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inside on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/inside/</link>
+    <description>Recent content in Inside on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Nov 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/inside/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to run virtual Android OS inside Android OS using Twoyi.</title>
+      <link>https://techtracker5.github.io/2022/11/how-to-run-virtual-android-os-inside.html</link>
+      <pubDate>Fri, 25 Nov 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/11/how-to-run-virtual-android-os-inside.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-IbcZAmx_ZbI/Y4EVU8wnjjI/AAAAAAAAPL0/XQmsNVYke20rPd9DxIPfS0j9x4pqxiP-wCNcBGAsYHQ/s1600/1669403983267838-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; I&amp;rsquo;m sure majority of people who reading this article own or use smartphones isn&amp;rsquo;t it? but have you ever thought to know it&amp;rsquo;s history? If you do or not now we are going to say you in simple how it&amp;rsquo;s all begin then will get back to Twoyi in this way you will understand and appreciate Twoyi project more if you&amp;rsquo;re Android enthusiast like me.
+It&amp;rsquo;s possible that you may already have basic idea about smartphone yet still for those people who don&amp;rsquo;t know in simple smartphone is integrated with hardware parts that work on charge of included batteries which are powered by electricity or any other like solar or wind energy etc and they are basically small in size due to that smartphone is known as handheld electronic device, isn&amp;rsquo;t interesting?</description>
+    </item>
+    
+    <item>
+      <title>How to run virtual Android OS inside Android OS using VMOS Pro.</title>
+      <link>https://techtracker5.github.io/2022/05/how-to-run-virtual-android-os-inside.html</link>
+      <pubDate>Mon, 23 May 2022 09:05:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/05/how-to-run-virtual-android-os-inside.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-I3h8s9iEjjc/YoqWTXDrvrI/AAAAAAAALJE/nk304Zu6__4FRdy2aKa_SkZOl8wtKOg4wCNcBGAsYHQ/s1600/1653249610087556-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; On PC, we usually run desktop operating systems like Windows, MacOS, Linux and Kali Linux etc but people use and install other operating systems as well especially mobile operating systems like Android on desktop using Virtual Machine or Android Emulators like BlueStacks, LDPlayer etc.
+Most people use virtual machine to install virtual desktop operating systems yet it has potential to install mobile operating systems as well but people like to prefer and experience mobile operating systems using Android emulators due to amazing features and customization options.</description>
+    </item>
+    
+  </channel>
+</rss>

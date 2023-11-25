@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  How to create free self hosting URL shortener using Cloudflare. - Tech Tracker
+  </title>
+  <meta name="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png&#34; alt=&#34;&#34;&gt; Long links not only lengthy in characters but also look bad when you want to share them with your social networks followers or friends etc, isn&rsquo;t? while short links look cute and doesn&rsquo;t occupy much space on your social media posts, that&rsquo;s why most people like to shorten thier length long links using URL shorteners.
+URL shorteners are everywhere, most popular social networks like YouTube, Facebook and Twitter etc use thier own API to shorten long links, and now a days people and influencers like bloggers and marketing teams also started using URL shortners thanks to free URL shortening services like Bit." /><meta name="generator" content="Hugo 0.92.2" /><link
+    rel="stylesheet"
+    href="https://techtracker5.github.io/css/styles.min.8984c35e72b5a477897b8473f9b7eb11a26c56142603e3594ba7637b31c0a162.css"
+    integrity="sha256-iYTDXnK1pHeJe4Rz+bfrEaJsVhQmA+NZS6djezHAoWI="
+  />
+  
+  
+
+  <meta property="og:title" content="How to create free self hosting URL shortener using Cloudflare." />
+<meta property="og:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png&#34; alt=&#34;&#34;&gt; Long links not only lengthy in characters but also look bad when you want to share them with your social networks followers or friends etc, isn&rsquo;t? while short links look cute and doesn&rsquo;t occupy much space on your social media posts, that&rsquo;s why most people like to shorten thier length long links using URL shorteners.
+URL shorteners are everywhere, most popular social networks like YouTube, Facebook and Twitter etc use thier own API to shorten long links, and now a days people and influencers like bloggers and marketing teams also started using URL shortners thanks to free URL shortening services like Bit." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techtracker5.github.io/2022/05/how-to-create-free-self-hosting-url.html" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-05-01T12:00:00+05:30" />
+<meta property="article:modified_time" content="2022-05-01T12:00:00+05:30" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to create free self hosting URL shortener using Cloudflare."/>
+<meta name="twitter:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png&#34; alt=&#34;&#34;&gt; Long links not only lengthy in characters but also look bad when you want to share them with your social networks followers or friends etc, isn&rsquo;t? while short links look cute and doesn&rsquo;t occupy much space on your social media posts, that&rsquo;s why most people like to shorten thier length long links using URL shorteners.
+URL shorteners are everywhere, most popular social networks like YouTube, Facebook and Twitter etc use thier own API to shorten long links, and now a days people and influencers like bloggers and marketing teams also started using URL shortners thanks to free URL shortening services like Bit."/>
+
+  <meta itemprop="name" content="How to create free self hosting URL shortener using Cloudflare.">
+<meta itemprop="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png&#34; alt=&#34;&#34;&gt; Long links not only lengthy in characters but also look bad when you want to share them with your social networks followers or friends etc, isn&rsquo;t? while short links look cute and doesn&rsquo;t occupy much space on your social media posts, that&rsquo;s why most people like to shorten thier length long links using URL shorteners.
+URL shorteners are everywhere, most popular social networks like YouTube, Facebook and Twitter etc use thier own API to shorten long links, and now a days people and influencers like bloggers and marketing teams also started using URL shortners thanks to free URL shortening services like Bit."><meta itemprop="datePublished" content="2022-05-01T12:00:00+05:30" />
+<meta itemprop="dateModified" content="2022-05-01T12:00:00+05:30" />
+<meta itemprop="wordCount" content="999">
+<meta itemprop="keywords" content="How,technology,Create,Cloudflare,URL Shortener," />
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://techtracker5.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="logo_black.jpg" alt="Tech Tracker" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/about">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">How to create free self hosting URL shortener using Cloudflare.</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    May 1, 2022
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      5&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      999&nbsp;words
+      
+        
+      
+    </h5>
+    
+
+    
+
+    <p><a href="https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-4LmEvVI6tX0/Ym7jsZF2U-I/AAAAAAAAKlI/vIUixsNGtfQ4L7Odrihhc8g1s0Ht1vQbACNcBGAsYHQ/s1600/1651434413752944-0.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>Long links not only lengthy in characters  but also look bad when you want to share them with your social networks followers or friends etc, isn&rsquo;t? while short links look cute and doesn&rsquo;t occupy much space on your social media posts, that&rsquo;s why most people like to shorten thier length long links using URL shorteners.</p>
+<p>URL shorteners are everywhere, most popular social networks like YouTube, Facebook and Twitter etc use thier own API to shorten long links, and now a days people and influencers like bloggers and marketing teams also started using URL shortners thanks to free URL shortening services like Bit.ly, Rebrand.ly, Ow.ly etc.</p>
+<p>Kevin Gilbertson created first ever URL shortener named Tinyurl In 2002 from then many people and companies like Google also created thier own URL shortners but only from past few years the usage of URL shortners got exponential growth due to increase of internet users.</p>
+<p>We are moving towards security and privacy focused Web3 decentralized internet but still most URL shortening platforms use centralised servers which are less secure and vulnerable to attacks like DDos and brueforce etc that can steal your personal data.</p>
+<p>Anyhow, to fix this problem recently we found an method to create self hosted url shortening site using Cloudflare which not only provide you fast url shortener but also protect and secure your url shortener from all types of attacks, so do you like it? are you interested? If yes let&rsquo;s begin.</p>
+<p><strong>• How to create self hosting URL shortner using Cloudflare for free •</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-L_PdmoIPwTY/Ym7jrU5ucmI/AAAAAAAAKlE/gsAMYD5VYhkZVJMMK8PTsabSCe6ZYRFMwCNcBGAsYHQ/s1600/1651434409545946-1.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-L_PdmoIPwTY/Ym7jrU5ucmI/AAAAAAAAKlE/gsAMYD5VYhkZVJMMK8PTsabSCe6ZYRFMwCNcBGAsYHQ/s1600/1651434409545946-1.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="https://dash.cloudflare.com/login" target="_blank" rel="noopener">Cloudflare.com</a>
+, sign up and login then add your website.</p>
+<p><a href="https://www.techtracker.in/2021/12/how-to-add-cloudflare-on-blogger-to.html" target="_blank" rel="noopener">&#43; How to add cloudflare on blogger to optimize and stop bot traffic.</a>
+</p>
+<p><a href="https://lh3.googleusercontent.com/-csOpx22q71A/Ym7jqT_Rc5I/AAAAAAAAKlA/TvxnmErkyc8vOIlFppozyOTtS0-2xwYfQCNcBGAsYHQ/s1600/1651434405753839-2.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-csOpx22q71A/Ym7jqT_Rc5I/AAAAAAAAKlA/TvxnmErkyc8vOIlFppozyOTtS0-2xwYfQCNcBGAsYHQ/s1600/1651434405753839-2.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Once, your website is added on Cloudflare, simply go to dashboard then tap on <strong>≡</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-S2L5LDO02ro/Ym7jpSvDMrI/AAAAAAAAKk8/_HgvGex6eQYh4t5LrGAaJMaGpVPDAqrlgCNcBGAsYHQ/s1600/1651434401671888-3.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-S2L5LDO02ro/Ym7jpSvDMrI/AAAAAAAAKk8/_HgvGex6eQYh4t5LrGAaJMaGpVPDAqrlgCNcBGAsYHQ/s1600/1651434401671888-3.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on Workers drop-down menu then tap on <strong>KV</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-cOVFTfLGmSQ/Ym7joQQ0ysI/AAAAAAAAKk4/1f6oyRHNFt08Jlfk9tG9tQVAzG-HAoXQwCNcBGAsYHQ/s1600/1651434397894956-4.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-cOVFTfLGmSQ/Ym7joQQ0ysI/AAAAAAAAKk4/1f6oyRHNFt08Jlfk9tG9tQVAzG-HAoXQwCNcBGAsYHQ/s1600/1651434397894956-4.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Create namespace</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-HmWaFQ6tEOA/Ym7jnU_w07I/AAAAAAAAKk0/w4FiQl91v0Ur7NXPygj4zV5Cnkg8O41AACNcBGAsYHQ/s1600/1651434393859281-5.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-HmWaFQ6tEOA/Ym7jnU_w07I/AAAAAAAAKk0/w4FiQl91v0Ur7NXPygj4zV5Cnkg8O41AACNcBGAsYHQ/s1600/1651434393859281-5.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter your preferred Namespace Name then tap on <strong>Add</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-NycNYFG41e4/Ym7jmQimOJI/AAAAAAAAKkw/P1wV3Xq4vVc7jVcAYVNt9r9yi5p2r8wKwCNcBGAsYHQ/s1600/1651434390203815-6.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-NycNYFG41e4/Ym7jmQimOJI/AAAAAAAAKkw/P1wV3Xq4vVc7jVcAYVNt9r9yi5p2r8wKwCNcBGAsYHQ/s1600/1651434390203815-6.png&#34; alt=&#34;&#34;&gt;</a>
+** - Once, created tap on <strong>View</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-g7M0lLiwfpA/Ym7jlelqDbI/AAAAAAAAKks/_zcT_n5rzkYuBhQdRofuRyhBdPRSnUR-ACNcBGAsYHQ/s1600/1651434386589497-7.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-g7M0lLiwfpA/Ym7jlelqDbI/AAAAAAAAKks/_zcT_n5rzkYuBhQdRofuRyhBdPRSnUR-ACNcBGAsYHQ/s1600/1651434386589497-7.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Here, you can see just Namespace ID is created but no key and value entries, it&rsquo;s fine you&rsquo;ll get them later on.</p>
+<p>- Tap on <strong>≡</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-lXX2v7B9-sQ/Ym7jkXBJISI/AAAAAAAAKko/169tdmpcFYA9gHdTpYCgGxHkSvvxvCkJACNcBGAsYHQ/s1600/1651434382427434-8.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-lXX2v7B9-sQ/Ym7jkXBJISI/AAAAAAAAKko/169tdmpcFYA9gHdTpYCgGxHkSvvxvCkJACNcBGAsYHQ/s1600/1651434382427434-8.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Workers</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-bwAcRXeJAKw/Ym7jjUNnQ5I/AAAAAAAAKkk/O8VgMzq2MtYMA4tcc81JZZEGKc6kKlnUwCNcBGAsYHQ/s1600/1651434378524998-9.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-bwAcRXeJAKw/Ym7jjUNnQ5I/AAAAAAAAKkk/O8VgMzq2MtYMA4tcc81JZZEGKc6kKlnUwCNcBGAsYHQ/s1600/1651434378524998-9.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>Create a Service</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-mk2yGbZRlOQ/Ym7jilOuLwI/AAAAAAAAKkg/r7UGqQAEKFggqPeyyaV4jmdVFlRSdHSBwCNcBGAsYHQ/s1600/1651434374838709-10.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-mk2yGbZRlOQ/Ym7jilOuLwI/AAAAAAAAKkg/r7UGqQAEKFggqPeyyaV4jmdVFlRSdHSBwCNcBGAsYHQ/s1600/1651434374838709-10.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter your preferred Service name then scroll down.</p>
+<p><a href="https://lh3.googleusercontent.com/-u_7pyRMIEJA/Ym7jhV2sRII/AAAAAAAAKkc/VHfTqJIEZ7sKRbN2h2KZOGkQmUenigXNgCNcBGAsYHQ/s1600/1651434371023620-11.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-u_7pyRMIEJA/Ym7jhV2sRII/AAAAAAAAKkc/VHfTqJIEZ7sKRbN2h2KZOGkQmUenigXNgCNcBGAsYHQ/s1600/1651434371023620-11.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>Create service</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/--TeLOyH9-i4/Ym7jgn3snpI/AAAAAAAAKkY/Ulcex3P-QisZO0NAMjleey53oiix_JuZQCNcBGAsYHQ/s1600/1651434367095166-12.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/--TeLOyH9-i4/Ym7jgn3snpI/AAAAAAAAKkY/Ulcex3P-QisZO0NAMjleey53oiix_JuZQCNcBGAsYHQ/s1600/1651434367095166-12.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Here, Tap on <strong>Settings</strong> and <strong>Variables</strong> then scroll down.</p>
+<p><a href="https://lh3.googleusercontent.com/-sfT23ViLvHM/Ym7jfhTQEtI/AAAAAAAAKkQ/wZjy2fk91ygzUD2zy1wNaBnD-EiiDZKcwCNcBGAsYHQ/s1600/1651434362359824-13.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-sfT23ViLvHM/Ym7jfhTQEtI/AAAAAAAAKkQ/wZjy2fk91ygzUD2zy1wNaBnD-EiiDZKcwCNcBGAsYHQ/s1600/1651434362359824-13.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- In KV Namespace Bindings, tap on **Add binding **</p>
+<p>**<a href="https://lh3.googleusercontent.com/-wWxENE77BDY/Ym7jebyWvOI/AAAAAAAAKkM/RwlD_KeUPYQ3WoAlJ-5NiRWjsmKzw7zIwCNcBGAsYHQ/s1600/1651434354997281-14.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-wWxENE77BDY/Ym7jebyWvOI/AAAAAAAAKkM/RwlD_KeUPYQ3WoAlJ-5NiRWjsmKzw7zIwCNcBGAsYHQ/s1600/1651434354997281-14.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter Variable name : LINKS and select KV Namespace name which you created earlier for url shortener from drop-down menu then tap on <strong>Save</strong> [ Must ]</p>
+<p><a href="https://lh3.googleusercontent.com/-mlhKPsaC_9U/Ym7jchU1G9I/AAAAAAAAKkI/x-6XiWHY7lYDIwoPG5exmmBdf1bmpZ_GwCNcBGAsYHQ/s1600/1651434350088803-15.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-mlhKPsaC_9U/Ym7jchU1G9I/AAAAAAAAKkI/x-6XiWHY7lYDIwoPG5exmmBdf1bmpZ_GwCNcBGAsYHQ/s1600/1651434350088803-15.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go back, In Resources tap on <strong>Quick edit</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-gyBTerkzj8o/Ym7jbX0pvyI/AAAAAAAAKkA/hAly0iISB7YyU9UAgq2cWqoRtRSFJtZcACNcBGAsYHQ/s1600/1651434344947903-16.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-gyBTerkzj8o/Ym7jbX0pvyI/AAAAAAAAKkA/hAly0iISB7YyU9UAgq2cWqoRtRSFJtZcACNcBGAsYHQ/s1600/1651434344947903-16.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to <a href="http://github.com/xyTom/Url-Shorten-Worker" target="_blank" rel="noopener">github.com/xyTom/Url-Shorten-Worker</a>
+ then fork repository.</p>
+<p><a href="https://lh3.googleusercontent.com/-fMl8NgIAGlU/Ym7jZ1M-NlI/AAAAAAAAKj8/eMlX1RRhw1sq0EB7ht_oCQhRbrew5k4WACNcBGAsYHQ/s1600/1651434337929965-17.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-fMl8NgIAGlU/Ym7jZ1M-NlI/AAAAAAAAKj8/eMlX1RRhw1sq0EB7ht_oCQhRbrew5k4WACNcBGAsYHQ/s1600/1651434337929965-17.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Enter Repository name, Description then tap on <strong>Create fork</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-IBquwk3YS3I/Ym7jYbFab_I/AAAAAAAAKj0/F52MwbkyJP4eipnAdTZ2dLwrV7FVess6gCNcBGAsYHQ/s1600/1651434332156350-18.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-IBquwk3YS3I/Ym7jYbFab_I/AAAAAAAAKj0/F52MwbkyJP4eipnAdTZ2dLwrV7FVess6gCNcBGAsYHQ/s1600/1651434332156350-18.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>View code</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-X_FIzPsBvLY/Ym7jW6szlBI/AAAAAAAAKjw/HkhaRdzoOdclS0mmRQPKLrRzaC5rPkFAACNcBGAsYHQ/s1600/1651434328227086-19.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-X_FIzPsBvLY/Ym7jW6szlBI/AAAAAAAAKjw/HkhaRdzoOdclS0mmRQPKLrRzaC5rPkFAACNcBGAsYHQ/s1600/1651434328227086-19.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Tap on <strong>index.js</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-H7US2BL5QpU/Ym7jV6X_3PI/AAAAAAAAKjs/aJlRnGwW0p8qKVSgIgRTTmWo8kmNIQ2YwCNcBGAsYHQ/s1600/1651434321756014-20.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-H7US2BL5QpU/Ym7jV6X_3PI/AAAAAAAAKjs/aJlRnGwW0p8qKVSgIgRTTmWo8kmNIQ2YwCNcBGAsYHQ/s1600/1651434321756014-20.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Copy all code of Index.js, then head back to Cloudflare.</p>
+<p><a href="https://lh3.googleusercontent.com/-CZ4XYoEONnw/Ym7jUF38a3I/AAAAAAAAKjo/dkaB358jZPMGN7g-GhVJBwxqgjnebaNegCNcBGAsYHQ/s1600/1651434316041138-21.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-CZ4XYoEONnw/Ym7jUF38a3I/AAAAAAAAKjo/dkaB358jZPMGN7g-GhVJBwxqgjnebaNegCNcBGAsYHQ/s1600/1651434316041138-21.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Remove existing code and paste Index.js code then tap on <strong>Save and Deploy</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-Gd5rAoWspPg/Ym7jSrGB0CI/AAAAAAAAKjk/H_QmSLD_rRQTbE5SROeem9WSAScDkdQ6gCNcBGAsYHQ/s1600/1651434309294215-22.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-Gd5rAoWspPg/Ym7jSrGB0CI/AAAAAAAAKjk/H_QmSLD_rRQTbE5SROeem9WSAScDkdQ6gCNcBGAsYHQ/s1600/1651434309294215-22.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>Save and Deploy</strong> again.</p>
+<p><a href="https://lh3.googleusercontent.com/-BVRd_hwQOWg/Ym7jRE05o4I/AAAAAAAAKjg/wQZISYcWR6ooKtF84-LeNbzfeR6baCdDACNcBGAsYHQ/s1600/1651434304179553-23.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-BVRd_hwQOWg/Ym7jRE05o4I/AAAAAAAAKjg/wQZISYcWR6ooKtF84-LeNbzfeR6baCdDACNcBGAsYHQ/s1600/1651434304179553-23.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go back, Tap on <strong>≡</strong> then tap on <strong>DNS</strong></p>
+<p><a href="https://lh3.googleusercontent.com/-BzsF5WdKC7I/Ym7jPg2zYQI/AAAAAAAAKjc/Jjpl96kI-9UBmx5abe7ZKISYYXUCfkyCwCNcBGAsYHQ/s1600/1651434298023477-24.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-BzsF5WdKC7I/Ym7jPg2zYQI/AAAAAAAAKjc/Jjpl96kI-9UBmx5abe7ZKISYYXUCfkyCwCNcBGAsYHQ/s1600/1651434298023477-24.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>+ Add record</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-EJzTdPIAIbM/Ym7jOF6akfI/AAAAAAAAKjY/Ynd3tM4DrRwgKy-lzvVkaosWYA5Li1euwCNcBGAsYHQ/s1600/1651434292561681-25.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-EJzTdPIAIbM/Ym7jOF6akfI/AAAAAAAAKjY/Ynd3tM4DrRwgKy-lzvVkaosWYA5Li1euwCNcBGAsYHQ/s1600/1651434292561681-25.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Enter your preferred sub-domain name, and IPv4 address : 192.0.2.0 or you can also use other dns record IPv4 address, if by any chance this not worked.</p>
+<p>- Tap on <strong>Save</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-n1YL7_MM4vY/Ym7jM5sJLNI/AAAAAAAAKjU/nPlSwxXPsbwJngAI8kBBrk2RGlu-bWVBwCNcBGAsYHQ/s1600/1651434287275980-26.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-n1YL7_MM4vY/Ym7jM5sJLNI/AAAAAAAAKjU/nPlSwxXPsbwJngAI8kBBrk2RGlu-bWVBwCNcBGAsYHQ/s1600/1651434287275980-26.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go back to Workers, then tap on <strong>Add route</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-egoyLMyE0Rs/Ym7jLhHFlSI/AAAAAAAAKjQ/ihCDu3FDZdAAlb1bKnjheLfCOFw6LepDwCNcBGAsYHQ/s1600/1651434281891520-27.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-egoyLMyE0Rs/Ym7jLhHFlSI/AAAAAAAAKjQ/ihCDu3FDZdAAlb1bKnjheLfCOFw6LepDwCNcBGAsYHQ/s1600/1651434281891520-27.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Replace my website with yours, and select Service, Environment then tap on <strong>Save</strong></p>
+<p>**<a href="https://lh3.googleusercontent.com/-b8v37vxin8w/Ym7jKU0YM1I/AAAAAAAAKjM/_vMvccczqvg2UO2htzBt4IXszABvDSNKACNcBGAsYHQ/s1600/1651434277139964-28.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-b8v37vxin8w/Ym7jKU0YM1I/AAAAAAAAKjM/_vMvccczqvg2UO2htzBt4IXszABvDSNKACNcBGAsYHQ/s1600/1651434277139964-28.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Woohoo, Go to your URL shortener sub domain that we just created now and paste your long link in blank.</p>
+<p>- Tap on  <strong>Shorten it,</strong> You&rsquo;ll get short link.</p>
+<p><a href="https://lh3.googleusercontent.com/-QmDeOBRYVAM/Ym7jJCCn5AI/AAAAAAAAKjI/Od3bUExqtKIJkyJ-ArE_3nZ7UwOUMXZ-QCNcBGAsYHQ/s1600/1651434272596162-29.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-QmDeOBRYVAM/Ym7jJCCn5AI/AAAAAAAAKjI/Od3bUExqtKIJkyJ-ArE_3nZ7UwOUMXZ-QCNcBGAsYHQ/s1600/1651434272596162-29.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- To check details of shortlink.</p>
+<p>-  Go to <a href="https://dash.cloudflare.com/workers/kv/namespaces" target="_blank" rel="noopener">Cloudflare Workers KV</a>
+, where you will get key and value which you can view, edit and delete, isn&rsquo;t amazing?</p>
+<p>** • How to edit URL shortener website • **</p>
+<p>**<a href="https://lh3.googleusercontent.com/-m4QsNLxBAuI/Ym7jH9A0wvI/AAAAAAAAKjE/b8FyW1nyl-A2n2m00-ZJs0X3rjtHp1dBwCNcBGAsYHQ/s1600/1651434266839551-30.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-m4QsNLxBAuI/Ym7jH9A0wvI/AAAAAAAAKjE/b8FyW1nyl-A2n2m00-ZJs0X3rjtHp1dBwCNcBGAsYHQ/s1600/1651434266839551-30.png&#34; alt=&#34;&#34;&gt;</a>
+**</p>
+<p>- Go to your forked repository of <a href="http://github.com/xyTom/Url-Shorten-Worker" target="_blank" rel="noopener">github.com/xyTom/Url-Shorten-Worker</a>
+. then here you can add .html file and add to change url shortener layout as you like.</p>
+<p><a href="https://lh3.googleusercontent.com/-EUb-yKIKljs/Ym7jGqpPQTI/AAAAAAAAKjA/Trb1CCIlaJ0nYNcMJFeDBn0Ak8Q7UwzhACNcBGAsYHQ/s1600/1651434258804073-31.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-EUb-yKIKljs/Ym7jGqpPQTI/AAAAAAAAKjA/Trb1CCIlaJ0nYNcMJFeDBn0Ak8Q7UwzhACNcBGAsYHQ/s1600/1651434258804073-31.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- If you added your custom .html file then edit and add the above code by replacing your site to get authentication window.</p>
+<p>Done, you successfully created self hosted url shortner website using Cloudflare.</p>
+<p>Atlast, this are just highlighted features of </p>
+<p>xyTom/Url-Shorten-Worker there may be many hidden features in-built to provide external features for ultimate usage experience, anyway if you want to create secure URL shortener website then using this method is best choice.</p>
+<p>Overall, it is very easy to implement xyTom/Url-Shorten-Worker on Cloudflare to get self hosting URL shortener for free, thanks to user friendly GitHub repository but in any project there is always space available for improvement so let&rsquo;s wait and see will xyTom/Url-Shorten-Worker get any major changes in future to make it even better as of now it&rsquo;s fantastic.</p>
+<p>Moreover, xyTom/Url-Shorten-Worker + Cloudflare Workers is one of the very few methods available out there on internet to get secure and reliable URL shortener for free, yes indeed if you&rsquo;re searching for such method then xyTom/Url-Shorten-Worker has potential to become your new favourite for sure.</p>
+<p>Finally, this is how you can get free self hosting URL shortener using Cloudflare, are you an existing user of this method? If yes do say your experience and mention if you know any better method to get secure URL shortener in our comment section below, see ya :)</p>
+
+  </article><div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2"></div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Mark Evans · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://techtracker5.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

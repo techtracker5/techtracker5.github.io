@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rethink DNS on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/rethink-dns/</link>
+    <description>Recent content in Rethink DNS on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 22:27:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/rethink-dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rethink DNS -  Anti-censorship, firewall, block spyware and more.</title>
+      <link>https://techtracker5.github.io/2021/12/rethink-dns-anti-censorship-firewall.html</link>
+      <pubDate>Sun, 05 Dec 2021 22:27:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2021/12/rethink-dns-anti-censorship-firewall.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-PDoWHmMXUdE/YazvbqK7x_I/AAAAAAAAHt4/ox5d-le8JKgMLGq8n_1d_GhxixbXH8cngCNcBGAsYHQ/s1600/1638723431334603-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; If you jump onto a website on internet you will see url address with domain entension at end which is in alphabet but computers and smartphones don&amp;rsquo;t connect websites based upon its name, in order to connect any website available on internet, browser uses a dns resolver to translate it into a IP address so that it can be connected.
+Usually, your internet service provider will translate websites into IP addresses, how ever there are many private dns resolvers apps and softwares available out there on Internet with better features, using private dns resolver apps you can get private and fast dns, block ads and trackers, block spy ware and malware, secure dns queries and</description>
+    </item>
+    
+  </channel>
+</rss>

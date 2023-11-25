@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Drive Indexer on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/google-drive-indexer/</link>
+    <description>Recent content in Google Drive Indexer on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2022 22:45:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/google-drive-indexer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create a serverless Google Drive indexer using Cloudflare.</title>
+      <link>https://techtracker5.github.io/2022/05/how-to-create-serverless-google-drive.html</link>
+      <pubDate>Thu, 05 May 2022 22:45:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/05/how-to-create-serverless-google-drive.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-1jM97uweY4M/YnQGHbr7VNI/AAAAAAAAKuE/yfGTFfEn5sIk7gCW22QTuvG9byZdQr3YACNcBGAsYHQ/s1600/1651770904696097-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Drive is undoubtedly one of the most popular free cloud storage platform from search engine giant Google where you can store all your files but like any other cloud storage platform you account is linked to your Email thus if by any chance you lose your account then you can&amp;rsquo;t access Drive and it&amp;rsquo;s files if they are private.
+Usually, Google Drive users who never want to loose files create public links of files and save them somewhere safe so that they can access and download them anytime but Google Drive public links not only lengthy in characters but also don&amp;rsquo;t look professional if you want to send on chat or include in articles etc.</description>
+    </item>
+    
+  </channel>
+</rss>

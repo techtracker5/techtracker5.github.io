@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Native Alpha on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/native-alpha/</link>
+    <description>Recent content in Native Alpha on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jun 2022 22:33:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/native-alpha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Native Alpha - Now show any website in full screen like PWA.</title>
+      <link>https://techtracker5.github.io/2022/06/native-alpha-now-show-any-website-in.html</link>
+      <pubDate>Wed, 29 Jun 2022 22:33:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/06/native-alpha-now-show-any-website-in.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-wgfHm2E8bDM/YryF3AYM9JI/AAAAAAAAML0/qmoLe9oW_uM1DZ7mfL60ra1WvROBF603ACNcBGAsYHQ/s1600/1656522196666527-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; When you want to visit a website on Internet you have to enter url address in search bar of browser then it will load website using your network data either on desktop and mobile but the problem here is if you want to visit a website frequently then you have to re-enter that website url address every time in search bar to access it which takes bit extra time.</description>
+    </item>
+    
+  </channel>
+</rss>

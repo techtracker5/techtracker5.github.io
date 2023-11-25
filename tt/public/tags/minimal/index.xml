@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimal on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/minimal/</link>
+    <description>Recent content in Minimal on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/minimal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proton AOSP - A minimal, fast and pure Android OS custom rom.</title>
+      <link>https://techtracker5.github.io/2022/08/proton-aosp-minimal-fast-and-pure.html</link>
+      <pubDate>Sat, 06 Aug 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/08/proton-aosp-minimal-fast-and-pure.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-3RORk5SLY7g/Yu65pRCJvVI/AAAAAAAAM9c/ROsWrUld3Z8cZEm0C7LatAKmXaK81BPHwCNcBGAsYHQ/s1600/1659812255351681-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; When world first multi-touch technology smartphone iPhone launched by Apple inc. founder steve jobs on January 9, 2007 it is powered by closed source operating system that has no name but as per Apple marketing it is a custom version of i Mac deskop operating system OS X but later on from iPhone 2 Apple inc. named it&amp;rsquo;s operating system as iOS.
+iOS is modern and advanced operating system that can totally replace keypad mobile operating systems like Java and Symbian but it&amp;rsquo;s closed source operating system so no mobile companies can use on thier smartphones other then Apple inc.</description>
+    </item>
+    
+    <item>
+      <title>BiTGApps - An open source minimal Google Apps package for Android.</title>
+      <link>https://techtracker5.github.io/2022/03/bitgapps-open-source-minimal-google.html</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/03/bitgapps-open-source-minimal-google.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-msu9GW9xoI4/YizzFwc1b4I/AAAAAAAAJo4/eCiMuEahkLIWkTO1DPccjsVnTxawScT0wCNcBGAsYHQ/s1600/1647112980668675-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; In stock roms, smartphone manufacturers usually install full package of Google Apps on AndroidOS in-addition they also include thier own set of OEM - system apps which most people feel them as bloatware, even when users try to uninstall those apps it&amp;rsquo;s not possible as they are system apps, this is why people root and unlock bootloader of smartphones in-order to install custom roms and unlock full capable functionality, anyhow it voids your warranty.</description>
+    </item>
+    
+  </channel>
+</rss>

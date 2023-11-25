@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Substratum Themes on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/substratum-themes/</link>
+    <description>Recent content in Substratum Themes on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2022 23:58:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/substratum-themes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Substratum? and how to install it&#39;s themes on Android?</title>
+      <link>https://techtracker5.github.io/2022/08/what-is-substratum-and-how-to-install.html</link>
+      <pubDate>Tue, 16 Aug 2022 23:58:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/08/what-is-substratum-and-how-to-install.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-VfTL-osPkuY/Yvvh6ea9KCI/AAAAAAAANI4/hTiyMWeMf1wizutGzwVLhLsCwQJprZn7gCNcBGAsYHQ/s1600/1660674532639520-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Android is an free and open source mobile operating system from Google developed exclusively for smartphones thus anyone can contribute or build thier own version of Android OS to remove or add additional features due to that many companies over the years build numerous custom versions of Android OS like popularly Xiaomi&amp;rsquo;s MIUI, Tecno&amp;rsquo;s HiOS, Infinix&amp;rsquo;s XOS etc.
+Even third party developers build thier own versions of Android OS known as custom roms like CyanogenMod, LineageOS, Omni rom etc but you can&amp;rsquo;t install them directly on your smartphone for that foremost you have to unlock bootloader after that install custom recovery like TWRP aka TeamWin recovery project then install custom roms that are specifically made for your device using guides from trusted portals like XDA but it voids device warranty.</description>
+    </item>
+    
+  </channel>
+</rss>

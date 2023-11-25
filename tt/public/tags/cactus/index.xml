@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cactus on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/cactus/</link>
+    <description>Recent content in Cactus on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2022 22:06:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/cactus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cactus - A simple decentralized comment system for privacy.</title>
+      <link>https://techtracker5.github.io/2022/04/cactus-simple-decentralized-comment.html</link>
+      <pubDate>Sun, 10 Apr 2022 22:06:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/04/cactus-simple-decentralized-comment.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-c1VDZFU8tPM/YlMHcjNH96I/AAAAAAAAKIg/ubl1eAgi3SIfkznepeEjnBjysnWtsPKRwCNcBGAsYHQ/s1600/1649608559458339-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Comment system is essential and adds extra value for any blog where users can comment to ask questions, give opinions even help fellow users by clarifying doubts etc, that&amp;rsquo;s why many bloggers implement thier own custom comment system but majority of bloggers depend on third party advanced comment systems like Discord, Graphcomment etc.
+Third party comment systems offer advanced features with better and detailed insights on user comments compared to default comment system provided by content management systems like blogger, WordPress etc thus you&amp;rsquo;re able to use them for marketing purposes or study them to understand your visitors and improve your user interactions.</description>
+    </item>
+    
+  </channel>
+</rss>

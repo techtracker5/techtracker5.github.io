@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dahlia on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/dahlia/</link>
+    <description>Recent content in Dahlia on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Aug 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/dahlia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dahlia - The world&#39;s first Flutter UI desktop OS based on Linux.</title>
+      <link>https://techtracker5.github.io/2022/08/dahlia-worlds-first-flutter-ui-desktop.html</link>
+      <pubDate>Sun, 14 Aug 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/08/dahlia-worlds-first-flutter-ui-desktop.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-UNQz5ZfgKW8/YvlIgOe5pgI/AAAAAAAANHE/eCSSruN7ZVMO1UWUUq1PW1ZSFWqQDnXegCNcBGAsYHQ/s1600/1660504186822375-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Charles Babbage, in year 1829 designed and build world first computer named difference engine which is an automatic mechanical calculator that can calculate and tabulate polynomial functions after that inventors around the world build numerous computers using latest and new technologies for various purposes accordingly.
+John Vincent Atanasoff, a physicist and mathematician invented world&amp;rsquo;s first electronic computer named Atanasoff-Berry Computer (ABC) after that many inventors developed electronic computers by integrating operating systems basically softwares to increase and extend capabilities of computers.</description>
+    </item>
+    
+  </channel>
+</rss>

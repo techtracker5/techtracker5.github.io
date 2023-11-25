@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tweetoshi on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/tweetoshi/</link>
+    <description>Recent content in Tweetoshi on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/tweetoshi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tweetoshi - A client that pay you Bitcoin rewards for using Twitter.</title>
+      <link>https://techtracker5.github.io/2023/01/tweetoshi-client-that-pay-you-bitcoin.html</link>
+      <pubDate>Tue, 07 Feb 2023 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2023/01/tweetoshi-client-that-pay-you-bitcoin.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-D6nEkrXbBlM/Y7SJ7s1cIsI/AAAAAAAAQHg/Bv4oNPAsb_4b0KSFzlrEWLfNJQzC6ZY2ACNcBGAsYHQ/s1600/1672776170415294-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Social networks are basically platforms where we can connect and message to fellow people which are now widely used by people around the world out of them well known and popular one is Twitter which is created by Jack Dorsey back in year 2009 but recently it was acquired by Tesla and SpaceX founder Elon Musk.
+Elon Musk making number of changes to Twitter to reduce spambots and increase privacy and security of users but the thing is Twitter is almost same as before which provide API aka application programming interface like number of social networks by using it numerous developers over the years created custom Twitter clients with amazing features to use extensively.</description>
+    </item>
+    
+  </channel>
+</rss>

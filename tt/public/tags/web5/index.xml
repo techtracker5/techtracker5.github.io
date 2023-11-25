@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web5 on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/web5/</link>
+    <description>Recent content in Web5 on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/web5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Web5 - upgrade of Web3 for decentralized identity and storage.</title>
+      <link>https://techtracker5.github.io/2022/09/what-is-web5-upgrade-of-web3-for.html</link>
+      <pubDate>Mon, 05 Sep 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/09/what-is-web5-upgrade-of-web3-for.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-Z26WduQWEzE/YxZRDmNQNfI/AAAAAAAANiA/jEQsQ6Ycn6w0z50hH6tzyrY4LhcXPq2KQCNcBGAsYHQ/s1600/1662406920279121-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Internet is network of computers developed by ARPANET aka Advanced Research Projects Agency Network back in 1969 to move data on network between computers for communication purposes at first they sent one message between two ARPANET computers but back then internet didn&amp;rsquo;t have standard protocol for communication with each other which is why in year January 1, 1983 a new way of communication protocol released named TCP/IP - Transfer Protocol / Internetwork protocol that was widely used now.</description>
+    </item>
+    
+  </channel>
+</rss>

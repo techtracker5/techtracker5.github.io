@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WMarkProBot on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/wmarkprobot/</link>
+    <description>Recent content in WMarkProBot on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Sep 2021 22:52:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/wmarkprobot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to easily add watermark to images automatically using this telegram bot!</title>
+      <link>https://techtracker5.github.io/2021/09/how-to-easily-add-watermark-to-images.html</link>
+      <pubDate>Tue, 21 Sep 2021 22:52:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2021/09/how-to-easily-add-watermark-to-images.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-G3P42SJGkFc/YVH9vc3eDiI/AAAAAAAAGug/4M0xxiyPgjIhi_BanQRspwPxK1g0k0rMACLcBGAsYHQ/s1600/1632763319810913-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; If you want to add watermark to images, it is little hard task because you need to use apps or software to do the work and it will take alot of time if you have many images and numerous watermark adding apps or software require you to have little skill as most of them don&amp;rsquo;t support adding water mark automatically which mean you have to apply watermark manually for each and every image which can be problematic.</description>
+    </item>
+    
+  </channel>
+</rss>

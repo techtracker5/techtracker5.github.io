@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugjaegar on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/bugjaegar/</link>
+    <description>Recent content in Bugjaegar on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Apr 2023 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/bugjaegar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to flash Android and unbrick device without PC using Bugjaegar.   </title>
+      <link>https://techtracker5.github.io/2023/06/how-to-flash-android-and-unbrick-device_20.html</link>
+      <pubDate>Sat, 15 Apr 2023 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2023/06/how-to-flash-android-and-unbrick-device_20.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://blogger.googleusercontent.com/img/a/AVvXsEghNMNMpAxFjR8yx-gMyqxdDP4kIkn9FMgUicyuQB39Jwx-kG6_xFjz9eta-nCyMqfvYhnF9U3Fc4P5vGRSPKQFHTPr89bKErLSZoqFfNT2vgyBI7fXpkgI6cS-P7DvfPooFX_wH0shzpu-Io-UV860VZqY4i0Mii5fJxxvKIFrxpgb3FX8xXq26LZA5g&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Firmware, have you ever heard of this thing? which is basically software that you&amp;rsquo;ll find on most electronic gadgets aka devices that basically provide such drivers which make device hardware and software compatible thought firmware itself is enough for most electronic gadgets but when it comes to smartphones you&amp;rsquo;ll need firmware and another software known as OS aka operating system which is included in one file with size in GBs aka giga bytes without OS you will find size of firmware around 100 mb aka mega bytes each and every smartphone have it&amp;rsquo;s own firmware provided by makers so you have to install right one to run everything quite well.</description>
+    </item>
+    
+    <item>
+      <title>How to install TWRP recovery without PC on Andriod easily.</title>
+      <link>https://techtracker5.github.io/2022/01/how-to-install-twrp-recovery-without-pc.html</link>
+      <pubDate>Sun, 16 Jan 2022 22:18:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/01/how-to-install-twrp-recovery-without-pc.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-YQKzrciPrkE/YeRMPDQahgI/AAAAAAAAIjg/uJouvy_ZtZ0lIGUItfFvuSS4mkL0QPxCACNcBGAsYHQ/s1600/1642351672263069-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Don&amp;rsquo;t run behind PC to unlock bootloader and install twrp recovery on your android smartphone, now you can do all adb stuff using an app named Bugjaegar, how ever in-addition you need an extra smartphone which will work as PC with USG otg cable to connect each other and get started.
+Bugjaegar is a mobile adb tool where you can enter and executive adb commands to connected android smartphone to unlock bootloader and flash TWRP or any custom recovery, sideload and flash AOSP images, adb backups, pull or push apks or files and many more expert tools used by numerous developers, geeks and hackers.</description>
+    </item>
+    
+  </channel>
+</rss>

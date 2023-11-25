@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LineageOS 19 on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/lineageos-19/</link>
+    <description>Recent content in LineageOS 19 on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Feb 2022 23:12:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/lineageos-19/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samsung Galaxy S4 mini - A 2013 smartphone boots Android 12.</title>
+      <link>https://techtracker5.github.io/2022/02/samsung-galaxy-s4-mini-2013-smartphone.html</link>
+      <pubDate>Fri, 11 Feb 2022 23:12:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/02/samsung-galaxy-s4-mini-2013-smartphone.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-siekHsjvQSs/YgagHk_RyhI/AAAAAAAAJGo/qYlekmOt8kUk5RcWYpWjZ3QHsipTWacOwCNcBGAsYHQ/s1600/1644601370126930-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; When ever a new latest Android software comes from Google, Pixel smartphones are the first to get latest updated version of it, as this is Google&amp;rsquo;s common practice from the time of Nexus to first update it&amp;rsquo;s smartphones, however thanks to Android open source project anyone including the smartphone manufacturers can build own version of Android software with custom skin and boot on smartphones for free.
+While, most manufacturers only update thier new smartphones to latest version of Android, this is where problem occurs due to lack of new updates old smartphones eventually become outdated and struggle to cope up with modernity, so to fix this problem skilled third party developers from portals like XDA use Android open source project to build latest version of Android through custom roms for old smartphones to keep them up-to-date.</description>
+    </item>
+    
+  </channel>
+</rss>

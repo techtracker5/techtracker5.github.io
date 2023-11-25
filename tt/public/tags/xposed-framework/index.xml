@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xposed Framework on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/xposed-framework/</link>
+    <description>Recent content in Xposed Framework on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Mar 2022 22:27:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/xposed-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Xposed Framework via LSPosed on Magisk.</title>
+      <link>https://techtracker5.github.io/2022/03/how-to-install-xposed-framework-via.html</link>
+      <pubDate>Sat, 19 Mar 2022 22:27:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/03/how-to-install-xposed-framework-via.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-l7LttLh68GQ/YjYLYqRc2uI/AAAAAAAAJyA/MQDgOIprMrgWswbnwDDX1iGvzLmqbg4qgCNcBGAsYHQ/s1600/1647709022368859-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Xposed Framework is the hub of 1000&amp;rsquo;s of best and useful modules, when magisk not come into existence, Xposed Framework is the only choice available for Android users
+however most people started switching to magisk a rooting software as they created repository for magisk modules.
+But, John Wu founder and developer of Magisk discontinued module repository as it&amp;rsquo;s hard to manage with other projects, eventhough you can still install modules from storage, anyway there are many people who like Xposed Framework over Magisk repository as you don&amp;rsquo;t have to import modules from storage.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devices on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/devices/</link>
+    <description>Recent content in Devices on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Mar 2022 22:29:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/devices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resilio Sync - backup and transfer huge files between devices.</title>
+      <link>https://techtracker5.github.io/2022/03/how-to-backup-and-transfer-huge-files.html</link>
+      <pubDate>Wed, 23 Mar 2022 22:29:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/03/how-to-backup-and-transfer-huge-files.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-p82tpb9ukCU/YjtR1swqCNI/AAAAAAAAJ3E/MPC88R5tISYyVV3NWAEtE3uHmK4tLlwQQCNcBGAsYHQ/s1600/1648054740394554-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; File transfer can be easily done using bluetooth, WiFi etc however inorder to transfer files using this technologies you have to connect each and every time and transfer to only one device per connection, while bluetooth takes ages to transfer huge files eventhough WiFi file transfer is popular but not reliable as sometimes you may face connection drop issues.
+However, there are numerous alternatives available to bluetooth and WiFi to transfer files between devices, recently we are in search of interesting apps and fortunately we found this app named Resilio sync which has numerous features to transfer huge files across devices like Mac, PC, mobiles, NAS, servers with encryption to protect against theft and attacks.</description>
+    </item>
+    
+  </channel>
+</rss>

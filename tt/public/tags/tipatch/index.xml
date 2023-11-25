@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tipatch on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/tipatch/</link>
+    <description>Recent content in Tipatch on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/tipatch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tipatch - Now backup all your internal storage using TWRP.  </title>
+      <link>https://techtracker5.github.io/2023/06/tipatch-now-backup-all-your-internal.html</link>
+      <pubDate>Tue, 11 Apr 2023 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2023/06/tipatch-now-backup-all-your-internal.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://blogger.googleusercontent.com/img/a/AVvXsEj3TARwU1mq-VXez82NIf44E0sqXM051j6YgtWv93xWaUPMLhTx_USziZuhBi0k8sSAh6RCTw6TP99CdxQbstE0vnpm5YCAaxe4vDs0lAwI53ytARwd3VWVMyxuMrpjh9mCHDwxh_wmX8ZmVnBUo7pnsI3ZsBptYyYThGUOsJpg3NgV0oAv7Gh3rb5N9g&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Recovery is basically software that you find on Android operating system in order to access that you have to press different keys based on device maker like power button and volume up or down etc once you get on to it you&amp;rsquo;ll get several important options like reboot to bootloader, fastboot, update from adb and sd card, wipe data and partition etc to do various internal tasks including that connecting the device with PC or smartphone using usb then on terminal you can execute number of adb commands to unlock device bootloader, magisk root, install custom recoveries or firmwares, custom roms and gsi etc which is why recovery is most important backend software to have on Android devices.</description>
+    </item>
+    
+  </channel>
+</rss>

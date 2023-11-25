@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  How to create web app dashboard with subdomain using Cloudflare. - Tech Tracker
+  </title>
+  <meta name="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png&#34; alt=&#34;&#34;&gt; On Internet, you can find web apps and websites but most people are not aware of web apps as only some companies and bloggers create web apps to make thier site feel like real app with same features and design, however now a days many people started creating upgraded version of web apps known as progressive web apps developed by Google in 2015.
+Web apps offers app kinda feel but not an app as it&rsquo;s just change in user interface to make it feel like app, while incase of pwa aka progressive web app feel like real app and it can be installed on your desktop or smartphone like real app so for sure PWA web apps are much better but at the end PWA is web app as well." /><meta name="generator" content="Hugo 0.92.2" /><link
+    rel="stylesheet"
+    href="https://techtracker5.github.io/css/styles.min.8984c35e72b5a477897b8473f9b7eb11a26c56142603e3594ba7637b31c0a162.css"
+    integrity="sha256-iYTDXnK1pHeJe4Rz+bfrEaJsVhQmA+NZS6djezHAoWI="
+  />
+  
+  
+
+  <meta property="og:title" content="How to create web app dashboard with subdomain using Cloudflare." />
+<meta property="og:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png&#34; alt=&#34;&#34;&gt; On Internet, you can find web apps and websites but most people are not aware of web apps as only some companies and bloggers create web apps to make thier site feel like real app with same features and design, however now a days many people started creating upgraded version of web apps known as progressive web apps developed by Google in 2015.
+Web apps offers app kinda feel but not an app as it&rsquo;s just change in user interface to make it feel like app, while incase of pwa aka progressive web app feel like real app and it can be installed on your desktop or smartphone like real app so for sure PWA web apps are much better but at the end PWA is web app as well." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://techtracker5.github.io/2022/05/how-to-create-web-app-dashboard-with_12.html" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-05-12T23:11:00+05:30" />
+<meta property="article:modified_time" content="2022-05-12T23:11:00+05:30" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to create web app dashboard with subdomain using Cloudflare."/>
+<meta name="twitter:description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png&#34; alt=&#34;&#34;&gt; On Internet, you can find web apps and websites but most people are not aware of web apps as only some companies and bloggers create web apps to make thier site feel like real app with same features and design, however now a days many people started creating upgraded version of web apps known as progressive web apps developed by Google in 2015.
+Web apps offers app kinda feel but not an app as it&rsquo;s just change in user interface to make it feel like app, while incase of pwa aka progressive web app feel like real app and it can be installed on your desktop or smartphone like real app so for sure PWA web apps are much better but at the end PWA is web app as well."/>
+
+  <meta itemprop="name" content="How to create web app dashboard with subdomain using Cloudflare.">
+<meta itemprop="description" content="&lt;img src=&#34;https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png&#34; alt=&#34;&#34;&gt; On Internet, you can find web apps and websites but most people are not aware of web apps as only some companies and bloggers create web apps to make thier site feel like real app with same features and design, however now a days many people started creating upgraded version of web apps known as progressive web apps developed by Google in 2015.
+Web apps offers app kinda feel but not an app as it&rsquo;s just change in user interface to make it feel like app, while incase of pwa aka progressive web app feel like real app and it can be installed on your desktop or smartphone like real app so for sure PWA web apps are much better but at the end PWA is web app as well."><meta itemprop="datePublished" content="2022-05-12T23:11:00+05:30" />
+<meta itemprop="dateModified" content="2022-05-12T23:11:00+05:30" />
+<meta itemprop="wordCount" content="830">
+<meta itemprop="keywords" content="How,technology,Create,Cloudflare,Web app dashboard," />
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://techtracker5.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="logo_black.jpg" alt="Tech Tracker" class="h-8 max-w-full" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/about">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">How to create web app dashboard with subdomain using Cloudflare.</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    May 12, 2022
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      4&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      830&nbsp;words
+      
+        
+      
+    </h5>
+    
+
+    
+
+    <p><a href="https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-bGi8CbSVkQc/Yn1Fc6JMvII/AAAAAAAAAOE/iEqdCLR6-IMDQTRNmP1UbahBqdPGna3wACNcBGAsYHQ/s1600/1652376942646541-0.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>On Internet, you can find web apps and websites but most people are not aware of web apps as only some companies and bloggers create web apps to make thier site feel like real app with same features and design, however now a days many people started creating upgraded version of web apps known as progressive web apps developed by Google in 2015.</p>
+<p>Web apps offers app kinda feel but not an app as it&rsquo;s just change in user interface to make it feel like app, while incase of pwa aka progressive web app feel like real app and it can be installed on your desktop or smartphone like real app so for sure PWA web apps are much better but at the end PWA is web app as well.</p>
+<p>If you&rsquo;re someone who frequently develop numerous web apps or progressive web apps then definitely you have to create a dashboard to categorize and present them cleanly at 1 place rightly on your website thus you&rsquo;re customers or visitors can access easily whenever they want that will help you in many ways.</p>
+<p>But, it will take some extra time to create dashboard page as you have code and design new layout for dashboard page with extra features isn&rsquo;t? recently we found a GitHub project named CF-Worker-Dir created by Sleepwood by using that with Cloudflare you can easily create web app dashboard with your own subdomain in few minutes, unbelievable isn&rsquo;t?</p>
+<p>Cloudflare is popular and reliable platform that provide numerous cloud technology services to make your website faster and protect from DDos mitigation attacks and they provide a feature named Workers by using it with CF-Worker-Dir GitHub project you can create nice web app dashboard for free, so do we got your attention? are you interested? If yes let&rsquo;s know little more info before we explore more.</p>
+<p><strong>• CF-Worker-Dir official support •</strong></p>
+<p>- <a href="https://github.com/sleepwood/CF-Worker-Dir" target="_blank" rel="noopener">GitHub</a>
+</p>
+<p><strong>• How to create free web app dashboard with subdomain using Cloudflare •</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-8Ttex7LQkGI/Yn1FboMnp0I/AAAAAAAAAOA/DN9Mk0jGCJcKcSV3VVyhoPIi2dye4Z7rACNcBGAsYHQ/s1600/1652376937770502-1.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-8Ttex7LQkGI/Yn1FboMnp0I/AAAAAAAAAOA/DN9Mk0jGCJcKcSV3VVyhoPIi2dye4Z7rACNcBGAsYHQ/s1600/1652376937770502-1.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**- Go to <a href="https://dash.cloudflare.com/login" target="_blank" rel="noopener"></a>
+<a href="https://dash.cloudflare.com/login" target="_blank" rel="noopener"></a>
+<a href="https://dash.cloudflare.com/login" target="_blank" rel="noopener">Cloudflare.com/login</a>
+ and sign up or login into your dashboard then add your domains and activate them.</p>
+<p><a href="https://www.techtracker.in/2021/12/how-to-add-cloudflare-on-blogger-to.html" target="_blank" rel="noopener">&#43; How to add cloudflare on blogger to optimize and stop bot traffic.</a>
+</p>
+<p><a href="https://lh3.googleusercontent.com/-HEV-DHT9UKg/Yn1Faa4agaI/AAAAAAAAAN4/disVdxTSoZU_BaoSjITme_2g-XlXHOrcwCNcBGAsYHQ/s1600/1652376932432890-2.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-HEV-DHT9UKg/Yn1Faa4agaI/AAAAAAAAAN4/disVdxTSoZU_BaoSjITme_2g-XlXHOrcwCNcBGAsYHQ/s1600/1652376932432890-2.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- In dashboard, tap on <strong>≡</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-48b_N9JCA2Y/Yn1FZMSvB_I/AAAAAAAAAN0/igvPg4cV3TQNZTcHbT8oyDuUImOLVWlewCNcBGAsYHQ/s1600/1652376926982871-3.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-48b_N9JCA2Y/Yn1FZMSvB_I/AAAAAAAAAN0/igvPg4cV3TQNZTcHbT8oyDuUImOLVWlewCNcBGAsYHQ/s1600/1652376926982871-3.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on <strong>Workers</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-B9YAkEVhfDc/Yn1FXsVh95I/AAAAAAAAANw/Q8DLFhwgbw03CLDY1sggDbnIIyYJTqDPwCNcBGAsYHQ/s1600/1652376921657698-4.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-B9YAkEVhfDc/Yn1FXsVh95I/AAAAAAAAANw/Q8DLFhwgbw03CLDY1sggDbnIIyYJTqDPwCNcBGAsYHQ/s1600/1652376921657698-4.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on <strong>Manage Workers</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-R3lj_eutExE/Yn1FWboffaI/AAAAAAAAANs/gw7aEnUKuiEOAPZxbpZhIrjbYJ6S3tIBwCNcBGAsYHQ/s1600/1652376916385180-5.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-R3lj_eutExE/Yn1FWboffaI/AAAAAAAAANs/gw7aEnUKuiEOAPZxbpZhIrjbYJ6S3tIBwCNcBGAsYHQ/s1600/1652376916385180-5.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on <strong>Create a Service</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-C4BRcktE6Cg/Yn1FVMiWKmI/AAAAAAAAANo/SIo7Cn_TLNIgo_lJatAFOsmjJyvv6QcqgCNcBGAsYHQ/s1600/1652376911112526-6.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-C4BRcktE6Cg/Yn1FVMiWKmI/AAAAAAAAANo/SIo7Cn_TLNIgo_lJatAFOsmjJyvv6QcqgCNcBGAsYHQ/s1600/1652376911112526-6.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Enter your preferred Service name then scroll down.</p>
+<p><a href="https://lh3.googleusercontent.com/-T0nIhaGcxGA/Yn1FTsvkp3I/AAAAAAAAANg/sK9N5v_UgXc5UCMNmlchbL-RKzgN6XaDwCNcBGAsYHQ/s1600/1652376906249086-7.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-T0nIhaGcxGA/Yn1FTsvkp3I/AAAAAAAAANg/sK9N5v_UgXc5UCMNmlchbL-RKzgN6XaDwCNcBGAsYHQ/s1600/1652376906249086-7.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on <strong>Create service</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-VCXXbTAJ4P0/Yn1FSnFv_cI/AAAAAAAAANc/NWGP4svAp28LGpIhDZVVIlhLoirlhK_vACNcBGAsYHQ/s1600/1652376895944611-8.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-VCXXbTAJ4P0/Yn1FSnFv_cI/AAAAAAAAANc/NWGP4svAp28LGpIhDZVVIlhLoirlhK_vACNcBGAsYHQ/s1600/1652376895944611-8.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- In Worker, tap on Quick edit.</p>
+<p><a href="https://lh3.googleusercontent.com/-hIvCfGJMxG0/Yn1FPzSamEI/AAAAAAAAANY/fg-xGEycFnYwyc2ZmKELCb3titPS2OqSQCNcBGAsYHQ/s1600/1652376888426077-9.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-hIvCfGJMxG0/Yn1FPzSamEI/AAAAAAAAANY/fg-xGEycFnYwyc2ZmKELCb3titPS2OqSQCNcBGAsYHQ/s1600/1652376888426077-9.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Remove existing code and add this code from <a href="https://raw.githubusercontent.com/sleepwood/CF-Worker-Dir/master/index.js" target="_blank" rel="noopener">index.js</a>
+ then tap on <strong>Save and Deploy.</strong></p>
+<p>- Don&rsquo;t forget to add your website title and description in code.</p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-jfez1AZayGo/Yn1FOEoQuII/AAAAAAAAANQ/zDVwBr08Ne4U3suD6aDnvgKxqsf9uJN8gCNcBGAsYHQ/s1600/1652376882715139-10.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-jfez1AZayGo/Yn1FOEoQuII/AAAAAAAAANQ/zDVwBr08Ne4U3suD6aDnvgKxqsf9uJN8gCNcBGAsYHQ/s1600/1652376882715139-10.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on **Save and Deploy **again.</p>
+<p><a href="https://lh3.googleusercontent.com/-DwEmjFbuqiM/Yn1FMoB6yTI/AAAAAAAAANM/fZ0osmZJuucM8gMJg5mwsLawZJSjJfXVACNcBGAsYHQ/s1600/1652376876942438-11.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-DwEmjFbuqiM/Yn1FMoB6yTI/AAAAAAAAANM/fZ0osmZJuucM8gMJg5mwsLawZJSjJfXVACNcBGAsYHQ/s1600/1652376876942438-11.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go back, tap on <strong>≡</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-fKuLFPySDPs/Yn1FK9ShlKI/AAAAAAAAANI/o75zGYqzpsEO_6X97qw9GgwzTaZg2WsdgCNcBGAsYHQ/s1600/1652376869820454-12.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-fKuLFPySDPs/Yn1FK9ShlKI/AAAAAAAAANI/o75zGYqzpsEO_6X97qw9GgwzTaZg2WsdgCNcBGAsYHQ/s1600/1652376869820454-12.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on <strong>Websites</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-zAXyWtubemE/Yn1FJTDnNPI/AAAAAAAAANE/VRPoRxRcs4o_RiX4aaYRorhCYNTqKJPwACNcBGAsYHQ/s1600/1652376864612916-13.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-zAXyWtubemE/Yn1FJTDnNPI/AAAAAAAAANE/VRPoRxRcs4o_RiX4aaYRorhCYNTqKJPwACNcBGAsYHQ/s1600/1652376864612916-13.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Select your website.</p>
+<p><a href="https://lh3.googleusercontent.com/-BuroFpG_8sc/Yn1FIC90CXI/AAAAAAAAANA/WuPdDdQWFFsu8cbwHJmSMM62m_toWVhxACNcBGAsYHQ/s1600/1652376859061374-14.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-BuroFpG_8sc/Yn1FIC90CXI/AAAAAAAAANA/WuPdDdQWFFsu8cbwHJmSMM62m_toWVhxACNcBGAsYHQ/s1600/1652376859061374-14.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Tap on **≡ **then tap on <strong>DNS</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-8YQ9wTohxno/Yn1FGt12XOI/AAAAAAAAAM8/SDveezkl8JQZuL90AAbUPClp87y6ZhwPQCNcBGAsYHQ/s1600/1652376853215009-15.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-8YQ9wTohxno/Yn1FGt12XOI/AAAAAAAAAM8/SDveezkl8JQZuL90AAbUPClp87y6ZhwPQCNcBGAsYHQ/s1600/1652376853215009-15.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Tap on <strong>+ Add record</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-a4KKuzunyWc/Yn1FFA-4PBI/AAAAAAAAAM4/6nbbRxtYz9UXLyaxWHzX0m9LFIx4MAiIwCNcBGAsYHQ/s1600/1652376846522411-16.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-a4KKuzunyWc/Yn1FFA-4PBI/AAAAAAAAAM4/6nbbRxtYz9UXLyaxWHzX0m9LFIx4MAiIwCNcBGAsYHQ/s1600/1652376846522411-16.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Select Type : A, Enter preffered Name for subdomain, then Enter 8.8.8.0 or existing sub-domain IPv4 address.</p>
+<p>- If by any chance A records didn&rsquo;t work then use Cname records.</p>
+<p>- Tap on <strong>Save</strong> </p>
+<p><a href="https://lh3.googleusercontent.com/-PW5UnZmgR2A/Yn1FDiNvbKI/AAAAAAAAAM0/DNRLfeN27eMKMi-Q4C-grnJUg2Ncr5_mACNcBGAsYHQ/s1600/1652376837594026-17.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-PW5UnZmgR2A/Yn1FDiNvbKI/AAAAAAAAAM0/DNRLfeN27eMKMi-Q4C-grnJUg2Ncr5_mACNcBGAsYHQ/s1600/1652376837594026-17.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>- Go back to Workers, then tap on <strong>Add route</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-ZlMcZEW1BWk/Yn1FBUqq8oI/AAAAAAAAAMw/ryVWmXZlGjol1ucW6rVXi2BSs_uPmhhTQCNcBGAsYHQ/s1600/1652376829430628-18.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-ZlMcZEW1BWk/Yn1FBUqq8oI/AAAAAAAAAMw/ryVWmXZlGjol1ucW6rVXi2BSs_uPmhhTQCNcBGAsYHQ/s1600/1652376829430628-18.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Replace my website with yours, select Service and Environment and then tap on <strong>Save</strong></p>
+<p>**</p>
+<p><a href="https://lh3.googleusercontent.com/-wGjs2Lps-cU/Yn1E_YONOrI/AAAAAAAAAMs/Vytmqf9YY0gmPv6Ww1Ol_MXNrjZ18KNHACNcBGAsYHQ/s1600/1652376820725916-19.png" target="_blank" rel="noopener">&lt;img src=&#34;https://lh3.googleusercontent.com/-wGjs2Lps-cU/Yn1E_YONOrI/AAAAAAAAAMs/Vytmqf9YY0gmPv6Ww1Ol_MXNrjZ18KNHACNcBGAsYHQ/s1600/1652376820725916-19.png&#34; alt=&#34;&#34;&gt;</a>
+</p>
+<p>**</p>
+<p>- Bingo, you successfully created web app dashboard with subdomain for free using Cloudflare Workers.</p>
+<p>Atlast, this are just highlighted features of Cloudflare Workers and Sleepwood CF-Worker-Dir project there may be many hidden features in-built to provide external features for ultimate usage experience, anyway if you want to create finest free web app dashboard then Sleepwood CF-Worker-Dir is worthy choice.</p>
+<p>Overall, it is very easy to implement Sleepwood CF-Worker-Dir  project on Cloudflare Workers to get simple and clean user-friendly web app dashboard, thanks to user friendly GitHub repository but in any project there is always space available for improvement so let&rsquo;s wait and see will Sleepwood CF-Worker-Dir project get any major changes in future to make it even better as of now it&rsquo;s super cool.</p>
+<p>Moreover, Sleepwood CF-Worker-Dir + Cloudflare Workers is one of the very few methods available out there on internet to create best free web app dashboard, yes indeed if you&rsquo;re searching for such method then Sleepwood CF-Worker-Dir project has potential to become your new favourite.</p>
+<p>Finally, this is how you can create a free web app dashboard using Cloudflare Workers, are you an existing user of this method? If yes do say your experience and mention if you know any better method to create web app dashboard in few minutes in our comment section below, see ya :)</p>
+
+  </article><div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2"></div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Mark Evans · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://techtracker5.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

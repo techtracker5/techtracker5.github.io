@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/backup/</link>
+    <description>Recent content in Backup on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tipatch - Now backup all your internal storage using TWRP.  </title>
+      <link>https://techtracker5.github.io/2023/06/tipatch-now-backup-all-your-internal.html</link>
+      <pubDate>Tue, 11 Apr 2023 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2023/06/tipatch-now-backup-all-your-internal.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://blogger.googleusercontent.com/img/a/AVvXsEj3TARwU1mq-VXez82NIf44E0sqXM051j6YgtWv93xWaUPMLhTx_USziZuhBi0k8sSAh6RCTw6TP99CdxQbstE0vnpm5YCAaxe4vDs0lAwI53ytARwd3VWVMyxuMrpjh9mCHDwxh_wmX8ZmVnBUo7pnsI3ZsBptYyYThGUOsJpg3NgV0oAv7Gh3rb5N9g&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Recovery is basically software that you find on Android operating system in order to access that you have to press different keys based on device maker like power button and volume up or down etc once you get on to it you&amp;rsquo;ll get several important options like reboot to bootloader, fastboot, update from adb and sd card, wipe data and partition etc to do various internal tasks including that connecting the device with PC or smartphone using usb then on terminal you can execute number of adb commands to unlock device bootloader, magisk root, install custom recoveries or firmwares, custom roms and gsi etc which is why recovery is most important backend software to have on Android devices.</description>
+    </item>
+    
+    <item>
+      <title>How to safeguard your website content and blog articles easily.</title>
+      <link>https://techtracker5.github.io/2022/09/how-to-safeguard-your-website-content.html</link>
+      <pubDate>Tue, 13 Sep 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/09/how-to-safeguard-your-website-content.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-6DpK1I1x1iQ/YyDaCKGcNOI/AAAAAAAANto/dil3P65eUHUOw8CxXXsfU70QWehvuIPmQCNcBGAsYHQ/s1600/1663097347633263-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Internet is standard protocol created by ARPANET to move digital data between electronic computers created in mid 19th century prior that we used to depend on various hardware based mechanical parts computers which don&amp;rsquo;t use electricity but the founder of computer Charles Babbage introduced and released many concepts of computers in early 18th century specifying it&amp;rsquo;s features that&amp;rsquo;re later implemented on almost all electronic computers.
+Especially, since mid 19th century alot of new and renowned inventors themselves or with entrepreneurs and companies started entensive developments on electronic computers using the existing concepts of Charles Babbage or new ones created themselves or anyone with necessary changes and modifications based on availability of technologies at that time to upgrade electronic computers for personal and commercial reasons accordingly due to that rapid progress of advancements begin.</description>
+    </item>
+    
+    <item>
+      <title>Resilio Sync - backup and transfer huge files between devices.</title>
+      <link>https://techtracker5.github.io/2022/03/how-to-backup-and-transfer-huge-files.html</link>
+      <pubDate>Wed, 23 Mar 2022 22:29:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/03/how-to-backup-and-transfer-huge-files.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-p82tpb9ukCU/YjtR1swqCNI/AAAAAAAAJ3E/MPC88R5tISYyVV3NWAEtE3uHmK4tLlwQQCNcBGAsYHQ/s1600/1648054740394554-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; File transfer can be easily done using bluetooth, WiFi etc however inorder to transfer files using this technologies you have to connect each and every time and transfer to only one device per connection, while bluetooth takes ages to transfer huge files eventhough WiFi file transfer is popular but not reliable as sometimes you may face connection drop issues.
+However, there are numerous alternatives available to bluetooth and WiFi to transfer files between devices, recently we are in search of interesting apps and fortunately we found this app named Resilio sync which has numerous features to transfer huge files across devices like Mac, PC, mobiles, NAS, servers with encryption to protect against theft and attacks.</description>
+    </item>
+    
+    <item>
+      <title>Swift Backup - best app to backup apps, sms, call logs on android.</title>
+      <link>https://techtracker5.github.io/2022/01/swift-backup-best-app-to-backup-apps.html</link>
+      <pubDate>Wed, 12 Jan 2022 22:33:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/01/swift-backup-best-app-to-backup-apps.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-y0Ia1232x6I/Yd79EjjoHEI/AAAAAAAAIdw/6-hxah_NrKwHsMdODtvQCJrfUd5_02p2gCNcBGAsYHQ/s1600/1642003724488103-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Titanium backup is one of the best and popular backup solution available for android devices to backup apps and data but you need rooted android device and give root level access to completely work with titanium backup as it requires system level access so if you don&amp;rsquo;t have rooted android device then titanium backup will not work for sure.
+In case if you don&amp;rsquo;t want to root your android device but still insist to backup apps then there are some Titanium backup alternatives available out there on internet, which will backup apps without root but few limitations apply due to lack of root access on your smartphone.</description>
+    </item>
+    
+  </channel>
+</rss>

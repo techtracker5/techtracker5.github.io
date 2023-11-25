@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dropbox on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/dropbox/</link>
+    <description>Recent content in Dropbox on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Nov 2021 23:25:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to auto save &amp; send files from Telegram to Dropbox for free.</title>
+      <link>https://techtracker5.github.io/2021/11/how-to-auto-save-send-files-from.html</link>
+      <pubDate>Thu, 18 Nov 2021 23:25:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2021/11/how-to-auto-save-send-files-from.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-QW9hT3i5LF0/YZaTfys0UjI/AAAAAAAAHYs/h3QA8Vm4KV0I40jbk-cbKZbdevGiMbo9QCLcBGAsYHQ/s1600/1637258105740654-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Do you want to auto save and send all your telegram files either available on Telegram channel or group to your dropbox account? If yes then there is not even 1 bot available to do that but still it is possible to send all your telegram files to dropbox account via third party automation service available on internet which can integrate telegram and dropbox using webhook.
+Telegram provides unlimited cloud storage with 2GB file size limit so millions of users store thier files in it but telegram don&amp;rsquo;t give you direct link for the files and telegram is not reliable to use it as backup platform as if you don&amp;rsquo;t login in your telegram account atleast once in year then it will be deleted and all your data stored will be lost which can get you personal and financial losses, so, it is very important to save your files in numerous reliable backup platform so you won&amp;rsquo;t get issues later, In Telegram, there are alot of channels and groups where they share different types of files and it is also well utilised by teachers to create groups and collect assignments from students, but the problem is if they want to backup the assignment or files to reliable backup platform like Dropbox then they have to download each assignment or file and upload it to dropbox which will use alot of network data and tiresome, Isn&amp;rsquo;t it amazing if we can auto save telegram files to dropbox?</description>
+    </item>
+    
+  </channel>
+</rss>

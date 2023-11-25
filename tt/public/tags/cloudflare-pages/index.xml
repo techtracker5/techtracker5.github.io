@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudflare pages on Tech Tracker</title>
+    <link>https://techtracker5.github.io/tags/cloudflare-pages/</link>
+    <description>Recent content in Cloudflare pages on Tech Tracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2022 12:00:00 +0530</lastBuildDate><atom:link href="https://techtracker5.github.io/tags/cloudflare-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to host your website on Cloudflare Pages for free.</title>
+      <link>https://techtracker5.github.io/2022/05/how-to-host-your-website-on-cloudflare.html</link>
+      <pubDate>Fri, 13 May 2022 12:00:00 +0530</pubDate>
+      
+      <guid>https://techtracker5.github.io/2022/05/how-to-host-your-website-on-cloudflare.html</guid>
+      <description>&amp;lt;img src=&amp;#34;https://lh3.googleusercontent.com/-IchRjUfYz54/Yn6kovPh86I/AAAAAAAAK8E/Qxb_FWwiF_YLH5ju3E_aw1L74fOO334dQCNcBGAsYHQ/s1600/1652466847435140-0.png&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Now a days, creating and publishing your own website on world wide web is super easy thanks to simple yet feature packed cms aka content management systems like Blogger and WordPress but not every one like to use them for whatever reason eventhough most popular cms platforms usually provide best in class security.
+However, most websites that are hosted on cms platforms face big DDOS attacks which will increase server load to such level where your website server can&amp;rsquo;t handle more requests thus cms server willl go offline, that&amp;rsquo;s why to secure and safeguard website majority of bloggers started creating Web3 website or using Cloudflare.</description>
+    </item>
+    
+  </channel>
+</rss>
