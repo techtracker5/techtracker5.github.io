@@ -1,0 +1,200 @@
+0000.005 () Opened log file at time: Sat, 13 Jul 2024 09:57:06 +0000 on http://techtracker.us.to
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.5 PHP: 8.2.20 (fpm-fcgi, Linux ip-172-26-12-16 6.1.0-22-cloud-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64) MySQL: 11.3.2-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 3.9M | 6M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 54910.4 MB
+0000.031 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Sat, 13 Jul 2024 09:57:07 +0000 on http://techtracker.us.to
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.5 PHP: 8.2.20 (fpm-fcgi, Linux ip-172-26-12-16 6.1.0-22-cloud-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.94-1 (2024-06-21) x86_64) MySQL: 11.3.2-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 2.7M | 4M) multisite: N openssl: OpenSSL 3.0.9 30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 54910.4 MB
+0000.003 () Ensuring WP_Filesystem is setup for a restore
+0000.003 () WP_Filesystem is setup and ready for a restore
+0000.007 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wpdv_options","wpdv_users","wpdv_usermeta","wpdv_commentmeta","wpdv_comments","wpdv_links","wpdv_postmeta","wpdv_posts","wpdv_term_relationships","wpdv_term_taxonomy","wpdv_termmeta","wpdv_terms","wpdv_fifu_invalid_media_su","wpdv_fifu_meta_in","wpdv_fifu_meta_out","wpdv_snippets","wpdv_wpdm_social_shares"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.007 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.011 () Entity: db
+0000.011 () restore_backup(backup_file=backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-db.gz, type=db, info=a:0:{}, last_one=)
+0000.011 () Unpacking backup... (backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-db.gz, 3.5 Mb)
+0000.011 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.017 () Database successfully unpacked
+0000.017 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.017 () Using direct MySQL access; value of use_mysqli is: 1
+0000.017 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.054 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.054 () Max packet size: 16 MB
+0000.054 () Entering maintenance mode
+0000.054 () Enabling Maintenance mode&#8230;
+0000.068 () Backup created by: 1.24.4
+0000.068 () Backup of: http://techtracker.free.nf
+0000.074 () Content URL: http://techtracker.free.nf/wp-content
+0000.074 () Uploads URL: http://techtracker.free.nf/wp-content/uploads
+0000.074 () Old table prefix: wpdv_
+0000.074 () Old ABSPATH: /home/vol17_1/infinityfree.com/if0_36874208/htdocs/
+0000.075 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.075 () Site information: multisite=0
+0000.075 () Site information: sql_mode=
+0000.076 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.076 () New table prefix: yh_
+0000.083 () Processing table (MyISAM): wpdv_options - will restore as: yh_options
+0000.187 () Atomic restore: dropping original table (wp_options)
+0000.192 () Atomic restore: renaming new table (yh_options) to final table name (wp_options)
+0000.199 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.231 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, /bitnami/wordpress/wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.251 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, /bitnami/wordpress/wp-content/plugins/updraftplus/options.php)
+0000.251 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, /bitnami/wordpress/wp-content/plugins/updraftplus/options.php)
+0000.278 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.279 () Options table fields changed OK
+0000.282 () Search and replacing table: wp_options: rows: 492
+0000.296 () Incomplete object detected in database: Account\AccountDataFactory; Search and replace will be skipped for these entries
+0000.297 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.344 () Incomplete object detected in database: Astra_Builder_Header; Search and replace will be skipped for these entries
+0000.344 () Incomplete object detected in database: Astra_Builder_Footer; Search and replace will be skipped for these entries
+0000.345 () Incomplete object detected in database: Astra_Ext_Adv_Search_Markup; Search and replace will be skipped for these entries
+0000.345 () Incomplete object detected in database: Astra_Addon_Builder_Header; Search and replace will be skipped for these entries
+0000.345 () Incomplete object detected in database: Astra_Addon_Builder_Footer; Search and replace will be skipped for these entries
+0000.441 () Processing table (MyISAM): wpdv_users - will restore as: yh_users
+0000.454 () Atomic restore: dropping original table (wp_users)
+0000.462 () Atomic restore: renaming new table (yh_users) to final table name (wp_users)
+0000.467 () Search and replacing table: wp_users: rows: 2
+0000.468 () Processing table (MyISAM): wpdv_usermeta - will restore as: yh_usermeta
+0000.479 () Atomic restore: dropping original table (wp_usermeta)
+0000.485 () Atomic restore: renaming new table (yh_usermeta) to final table name (wp_usermeta)
+0000.488 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.488 () Usermeta table fields changed OK
+0000.489 () Search and replacing table: wp_usermeta: rows: 45
+0000.490 () Processing table (MyISAM): wpdv_commentmeta - will restore as: yh_commentmeta
+0000.501 () Atomic restore: dropping original table (wp_commentmeta)
+0000.508 () Atomic restore: renaming new table (yh_commentmeta) to final table name (wp_commentmeta)
+0000.512 () Search and replacing table: wp_commentmeta: rows: 8
+0000.513 () Processing table (MyISAM): wpdv_comments - will restore as: yh_comments
+0000.525 () Atomic restore: dropping original table (wp_comments)
+0000.531 () Atomic restore: renaming new table (yh_comments) to final table name (wp_comments)
+0000.537 () Search and replacing table: wp_comments: rows: 8
+0000.538 () Processing table (MyISAM): wpdv_links - will restore as: yh_links
+0000.549 () Atomic restore: dropping original table (wp_links)
+0000.556 () Atomic restore: renaming new table (yh_links) to final table name (wp_links)
+0000.561 () Search and replacing table: wp_links: rows: 0
+0000.561 () Processing table (MyISAM): wpdv_postmeta - will restore as: yh_postmeta
+0000.648 () Atomic restore: dropping original table (wp_postmeta)
+0000.657 () Atomic restore: renaming new table (yh_postmeta) to final table name (wp_postmeta)
+0000.666 () Search and replacing table: wp_postmeta: rows: 4
+0000.669 () Processing table (MyISAM): wpdv_posts - will restore as: yh_posts
+0000.953 () Database queries processed: 50 in 0.93 seconds
+0001.023 () Atomic restore: dropping original table (wp_posts)
+0001.029 () Atomic restore: renaming new table (yh_posts) to final table name (wp_posts)
+0001.033 () Skipping search/replace on GUID column in posts table
+0001.033 () Search and replacing table: wp_posts: rows: 1077
+0001.129 () Processing table (MyISAM): wpdv_term_relationships - will restore as: yh_term_relationships
+0001.167 () Atomic restore: dropping original table (wp_term_relationships)
+0001.175 () Atomic restore: renaming new table (yh_term_relationships) to final table name (wp_term_relationships)
+0001.178 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.178 () Processing table (MyISAM): wpdv_term_taxonomy - will restore as: yh_term_taxonomy
+0001.221 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.229 () Atomic restore: renaming new table (yh_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.234 () Search and replacing table: wp_term_taxonomy: rows: 1853
+0001.249 () Processing table (MyISAM): wpdv_termmeta - will restore as: yh_termmeta
+0001.260 () Atomic restore: dropping original table (wp_termmeta)
+0001.265 () Atomic restore: renaming new table (yh_termmeta) to final table name (wp_termmeta)
+0001.270 () Search and replacing table: wp_termmeta: rows: 0
+0001.270 () Processing table (MyISAM): wpdv_terms - will restore as: yh_terms
+0001.310 () Atomic restore: dropping original table (wp_terms)
+0001.318 () Atomic restore: renaming new table (yh_terms) to final table name (wp_terms)
+0001.322 () Search and replacing table: wp_terms: rows: 1853
+0001.333 () Processing table (MyISAM): wpdv_fifu_invalid_media_su - will restore as: yh_fifu_invalid_media_su
+0001.345 () Atomic restore: dropping original table (wp_fifu_invalid_media_su)
+0001.349 () Atomic restore: renaming new table (yh_fifu_invalid_media_su) to final table name (wp_fifu_invalid_media_su)
+0001.354 () Search and replacing table: wp_fifu_invalid_media_su: rows: 0
+0001.354 () Processing table (MyISAM): wpdv_fifu_meta_in - will restore as: yh_fifu_meta_in
+0001.365 () Atomic restore: dropping original table (wp_fifu_meta_in)
+0001.372 () Atomic restore: renaming new table (yh_fifu_meta_in) to final table name (wp_fifu_meta_in)
+0001.377 () Search and replacing table: wp_fifu_meta_in: rows: 0
+0001.377 () Processing table (MyISAM): wpdv_fifu_meta_out - will restore as: yh_fifu_meta_out
+0001.391 () Atomic restore: dropping original table (wp_fifu_meta_out)
+0001.396 () Atomic restore: renaming new table (yh_fifu_meta_out) to final table name (wp_fifu_meta_out)
+0001.403 () Search and replacing table: wp_fifu_meta_out: rows: 0
+0001.403 () Processing table (MyISAM): wpdv_snippets - will restore as: yh_snippets
+0001.419 () Atomic restore: dropping original table (wp_snippets)
+0001.424 () Atomic restore: renaming new table (yh_snippets) to final table name (wp_snippets)
+0001.428 () Search and replacing table: wp_snippets: rows: 4
+0001.429 () Processing table (MyISAM): wpdv_wpdm_social_shares - will restore as: yh_wpdm_social_shares
+0001.435 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.436 () UpdraftVault: this site has not been connected - check your settings
+0002.986 () Unlocking database and leaving maintenance mode
+0002.986 () Disabling Maintenance mode&#8230;
+0002.986 () Atomic restore: dropping original table (wp_wpdm_social_shares)
+0002.990 () Atomic restore: renaming new table (yh_wpdm_social_shares) to final table name (wp_wpdm_social_shares)
+0002.994 () Search and replacing table: wp_wpdm_social_shares: rows: 0
+0002.994 () Finished: lines processed: 82 in 2.97 seconds
+0002.995 () Cleaning up rubbish...
+0002.995 () Begin search and replace (updraftplus_restored_db)
+0002.995 () [Database-replace-site-url] Database: search and replace site URL
+0002.995 () Database search and replace: replace http://techtracker.free.nf in backup dump with http://techtracker.us.to
+0002.995 () Database search and replace: replace http://www.techtracker.free.nf in backup dump with http://techtracker.us.to
+0002.995 () Database search and replace: replace https://www.techtracker.free.nf in backup dump with http://techtracker.us.to
+0002.995 () Database search and replace: replace https://techtracker.free.nf in backup dump with http://techtracker.us.to
+0002.995 () Database search and replace: replace /home/vol17_1/infinityfree.com/if0_36874208/htdocs in backup dump with /opt/bitnami/wordpress
+0002.996 () Search and replacing table: wp_commentmeta: already done
+0002.996 () Search and replacing table: wp_comments: already done
+0002.996 () Search and replacing table: wp_fifu_invalid_media_su: already done
+0002.996 () Search and replacing table: wp_fifu_meta_in: already done
+0002.996 () Search and replacing table: wp_fifu_meta_out: already done
+0002.996 () Search and replacing table: wp_links: already done
+0002.996 () Search and replacing table: wp_options: already done
+0002.996 () Search and replacing table: wp_postmeta: already done
+0002.996 () Search and replacing table: wp_posts: already done
+0002.996 () Search and replacing table: wp_snippets: already done
+0002.996 () Search and replacing table: wp_term_relationships: already done
+0002.996 () Search and replacing table: wp_term_taxonomy: already done
+0002.996 () Search and replacing table: wp_termmeta: already done
+0002.996 () Search and replacing table: wp_terms: already done
+0002.996 () Search and replacing table: wp_usermeta: already done
+0002.996 () Search and replacing table: wp_users: already done
+0002.996 () Search and replacing table: wp_wpdm_social_shares: already done
+0002.997 () Search and replacing table: wp_actionscheduler_actions: rows: 0
+0002.998 () Search and replacing table: wp_actionscheduler_claims: rows: 0
+0002.999 () Search and replacing table: wp_actionscheduler_groups: rows: 0
+0003.000 () Search and replacing table: wp_actionscheduler_logs: rows: 0
+0003.000 () Search and replacing table: wp_aioseo_cache: rows: 0
+0003.006 () Entity: plugins
+0003.006 () restore_backup(backup_file=backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:41:"/opt/bitnami/wordpress/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0003.007 () Unpacking backup... (backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-plugins.zip, 11.6 MB)
+0003.008 () Unzipping backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-plugins.zip to /opt/bitnami/wordpress/wp-content/upgrade/9a7e25e0/ using UpdraftPlus_ZipArchive, starting index 0
+0003.094 () Unzip progress: 1002 out of 3118 files (4.1 MB, plugins/astra-addon/addons/header-sections/assets/css/unminified/below-header-layout-2.css)
+0003.235 () Unzip progress: 2003 out of 3118 files (17.9 MB, plugins/updraftplus/includes/cloudfiles/cloudfiles.php)
+0003.407 () Unzip progress: 3004 out of 3118 files (40.1 MB, plugins/simple-yearly-archive/admin/simple-yearly-archive-admin.php)
+0003.421 () Unzip progress: 3118 out of 3118 files (41.3 MB, plugins/featured-image-from-url/readme.txt)
+0003.425 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.425 () Moving old data: can potentially use wp_filesystem method / -old
+0003.425 () Moving old data out of the way...
+0003.479 () Top-level entities being moved: index.php, updraftplus, .buildcomplete
+0003.480 () Moving unpacked backup into place...
+0003.609 () Top-level entities being moved: classic-editor-addon, index.php, wp-bulk-delete, updraftplus, blogger-importer, simple-yearly-archive, astra-addon, disable-comments, featured-image-from-url
+0003.611 () Cleaning up rubbish...
+0003.613 () Entity: themes
+0003.613 () restore_backup(backup_file=backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-themes.zip, type=themes, info=a:3:{s:4:"path";s:40:"/opt/bitnami/wordpress/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0003.613 () Unpacking backup... (backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-themes.zip, 6 MB)
+0003.613 () Unzipping backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-themes.zip to /opt/bitnami/wordpress/wp-content/upgrade/e51367a8/ using UpdraftPlus_ZipArchive, starting index 0
+0003.850 () Unzip progress: 1002 out of 1057 files (20.1 MB, themes/astra/languages/astra.pot)
+0003.857 () Unzip progress: 1057 out of 1057 files (20.7 MB, themes/astra/wpml-config.xml)
+0003.859 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.859 () Moving old data: can potentially use wp_filesystem method / -old
+0003.859 () Moving old data out of the way...
+0003.870 () Top-level entities being moved: twentytwentyfour, index.php, twentytwentythree, twentytwentytwo
+0003.871 () Moving unpacked backup into place...
+0003.930 () Top-level entities being moved: index.php, astra
+0003.931 () Cleaning up rubbish...
+0003.934 () Entity: uploads
+0003.934 () restore_backup(backup_file=backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:41:"/opt/bitnami/wordpress/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.934 () Unpacking backup... (backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-uploads.zip, 5.7 MB)
+0003.934 () Unzipping backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-uploads.zip to /opt/bitnami/wordpress/wp-content/upgrade/d9951463/ using UpdraftPlus_ZipArchive, starting index 0
+0004.070 () Unzip progress: 150 out of 150 files (33.2 MB, uploads/astra-docs/docs.json)
+0004.071 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.071 () Moving old data: can potentially use wp_filesystem method / -old
+0004.071 () Moving old data out of the way...
+0004.071 () Moving unpacked backup into place...
+0004.076 () Cleaning up rubbish...
+0004.078 () Entity: others
+0004.078 () restore_backup(backup_file=backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-others.zip, type=others, info=a:2:{s:4:"path";s:33:"/opt/bitnami/wordpress/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0004.078 () Unpacking backup... (backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-others.zip, 1 MB)
+0004.078 () Unzipping backup_2024-07-13-0748_techtrackerfreenf_ebd620161057-others.zip to /opt/bitnami/wordpress/wp-content/upgrade/81150bd3/ using UpdraftPlus_ZipArchive, starting index 0
+0004.101 () Unzip progress: 13 out of 13 files (4.4 MB, logs/app7.log)
+0004.102 () Cleaning up rubbish...
+0004.115 () Restore successful!
+0004.115 () Restore successful
